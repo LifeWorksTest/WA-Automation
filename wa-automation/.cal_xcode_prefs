@@ -1,0 +1,3796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CurrentAlertPreferencesSelection</key>
+	<string>Xcode.AlertEvent.BuildStart</string>
+	<key>DTDKLastLSRegisterHashes</key>
+	<dict>
+		<key>/System/Library/CoreServices/CoreTypes.bundle</key>
+		<data>
+		7zLIlF7gWn//MC/1qHqRhyPeGVA=
+		</data>
+		<key>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</key>
+		<data>
+		dwT4AS7mSPTdi+XLQS3v0ucaTNE=
+		</data>
+	</dict>
+	<key>DVTDeveloperAccountManagerAppleIDs</key>
+	<array/>
+	<key>DVTDevicesWindowControllerSelectedDeviceIdentifier</key>
+	<string>99EB91CE-D333-4F71-9B13-BFDC0C8AF161</string>
+	<key>DVTDisclosureViewDisclosedStates</key>
+	<dict/>
+	<key>DVTDownloadableAutomaticUpdate</key>
+	<false/>
+	<key>DVTFontAndColorCurrentTheme</key>
+	<string>Default.dvtcolortheme</string>
+	<key>DVTIgnoredDevices</key>
+	<array/>
+	<key>DVTInvalidationLastHardAssertTimeInterval</key>
+	<real>473083958.22255403</real>
+	<key>DVTLibraryUIState.Xcode.IDECodeSnippetLibrary</key>
+	<dict>
+		<key>DVTLibraryAssetTileViewUIState</key>
+		<dict>
+			<key>assetViewStyle</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>DVTLibraryUIState.Xcode.IDETemplateLibrary.Library.Files</key>
+	<dict>
+		<key>DVTLibraryAssetTileViewUIState</key>
+		<dict>
+			<key>assetViewStyle</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>DVTSourceControlAccountDefaultsKey</key>
+	<array>
+		<dict>
+			<key>DVTSourceControlAccountAuthTypeKey</key>
+			<integer>2</integer>
+			<key>DVTSourceControlAccountNameKey</key>
+			<string>wa-ios</string>
+			<key>DVTSourceControlAccountURLKey</key>
+			<string>https://github.com/workivate/wa-ios.git</string>
+			<key>DVTSourceControlAccountUsernameKey</key>
+			<string></string>
+			<key>DVTSourceControlRepositoryIdentifierKey</key>
+			<string>305BDE4E1EFFFCFC374396DE5EBC60038A765D33</string>
+			<key>DVTSourceControlSystemIdentifierKey</key>
+			<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+		</dict>
+	</array>
+	<key>DVTTextCompletionRecentCompletions</key>
+	<array>
+		<string>x</string>
+	</array>
+	<key>IBAppliesAutoResizingRulesWhileResizing</key>
+	<false/>
+	<key>IBPreferencesMigrated</key>
+	<true/>
+	<key>IDEDefaultPrimaryEditorFrameSizeForPaths</key>
+	<dict>
+		<key>file:///Users/wangel/.rvm/gems/ruby-2.2.1/gems/calabash-cucumber-0.16.4/features-skeleton/support/01_launch.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/T/features/support/hook.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/T/features/twitter/step_defintion/gift_cards.rb</key>
+		<dict>
+			<key>height</key>
+			<real>876</real>
+			<key>width</key>
+			<real>1400</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/T/features/twitter/step_defintion/twitter.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/app_life_cycle_hooks.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/backup/web/untitled%20folder/LatestTwitts.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/features/step_definitions/calabash_steps.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/features/step_definitions/my_first_steps.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/features/support/01_launch.rb</key>
+		<dict>
+			<key>height</key>
+			<real>687</real>
+			<key>width</key>
+			<real>799</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/features/support/02_pre_stop_hooks.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/features/support/dry_run.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/features/support/env.rb</key>
+		<dict>
+			<key>height</key>
+			<real>687</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/features/support/patches/cucumber.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/t%20copy.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/t.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/test/features/step_definitions/calabash_steps.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/test/features/support/01_launch.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/test/features/support/app_installation_hooks.rb</key>
+		<dict>
+			<key>height</key>
+			<real>352</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/test/features/support/app_life_cycle_hooks.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/test/features/support/env.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/test/features/support/hooks.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/test/features/support/patches/cucumber.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/to_pdf.rb</key>
+		<dict>
+			<key>height</key>
+			<real>876</real>
+			<key>width</key>
+			<real>1400</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/twitter/features/twitter/pages/twitter.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-auto-2/features/support/calabash_steps.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation%202/Calabash/cal.xcconfig</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation-dev/features/support/01_launch.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation-dev/features/support/app_installation_hooks.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation-dev/features/support/env.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/Android/support/app_installation_hooks.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/Android/support/app_life_cycle_hooks.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/Android/support/calabash_steps.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/Api/pages/api_page.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/Arch/pages/arch_affiliates_page.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/Arch/pages/arch_companies_page.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/Platform/Android/support/app_installation_hooks.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/Web/external_data.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/Web/support/hook.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/external_data.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>1280</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/hermes/pages/hermes_news_feed_page.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/hermes/step_definitions/leaderboard.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/iOS/support/01_launch.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/platform/Android/support/app_installation_hooks.rb</key>
+		<dict>
+			<key>height</key>
+			<real>876</real>
+			<key>width</key>
+			<real>1400</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/platform/Android/support/app_life_cycle_hooks.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/platform/Api/step_definitions/affiliates.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/platform/Api/step_definitions/api.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/platform/Hermes/step_definitions/wallet.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/platform/iOS/support/01_launch.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/support/01_launch.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/support/calabash_steps.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/support/env.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/support/hook.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/features/zeus/pages/zeus_santander_page.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/lib/myClasses.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/support/calabash_steps.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/support/external_data.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation/support/hook.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation2/README.md</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>1280</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation2/env.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation2/features/support/01_launch.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation2/features/support/02_pre_stop_hooks.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation2/features/support/env.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation2/lib/myClasses.rb</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-automation2/scripts/after_install.sh</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-ios-develop/Podfile</key>
+		<dict>
+			<key>height</key>
+			<real>708</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-ios-develop/WorkAngel/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>height</key>
+			<real>690</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-ios/Pods/Calabash/calabash.framework/Versions/A/Headers/CalabashServer.h</key>
+		<dict>
+			<key>height</key>
+			<real>958</real>
+			<key>width</key>
+			<real>1680</real>
+		</dict>
+		<key>file:///Users/wangel/Desktop/wa-ios/Pods/Pods.xcodeproj/</key>
+		<dict>
+			<key>height</key>
+			<real>728</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Develop/android-sdk/extras/google/google_play_services/samples/cast/democastplayer/src/com/google/android/gms/cast/samples/democastplayer/EditTextDialog.java</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Develop/android-sdk/sources/android-15/android/media/MediaScanner.java</key>
+		<dict>
+			<key>height</key>
+			<real>679</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/Documents/Projects/money/test.rb</key>
+		<dict>
+			<key>height</key>
+			<real>750</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+		<key>file:///Users/wangel/my_project/LatestTwitts.rb</key>
+		<dict>
+			<key>height</key>
+			<real>876</real>
+			<key>width</key>
+			<real>1400</real>
+		</dict>
+		<key>x-xcode-log://F17F55B6-3719-48FF-A0D6-25486515803C</key>
+		<dict>
+			<key>height</key>
+			<real>679</real>
+			<key>width</key>
+			<real>800</real>
+		</dict>
+	</dict>
+	<key>IDEHasConvertedXcode3BuildPrefs</key>
+	<true/>
+	<key>IDEInspectorAreaUserPreferredCategories</key>
+	<array>
+		<string>Xcode.IDEKit.InspectorCategory.File</string>
+		<string>Xcode.IDEKit.InspectorCategory.QuickHelp</string>
+	</array>
+	<key>IDEKeyBindingCurrentPreferenceSet</key>
+	<string>Default.idekeybindings</string>
+	<key>IDEKeyBindingExcludedPreferenceSet</key>
+	<array>
+		<string>Default</string>
+	</array>
+	<key>IDELastLSRegisterHashes</key>
+	<dict>
+		<key>/Applications/Xcode.app/Contents/Applications/Accessibility Inspector.app</key>
+		<data>
+		7WuDgqX6Nc8MAgvH9j3Pz4tCr6k=
+		</data>
+		<key>/Applications/Xcode.app/Contents/Applications/Application Loader.app</key>
+		<data>
+		Q8kgZ6XQr9/53iWSKMrIuQcbebk=
+		</data>
+		<key>/Applications/Xcode.app/Contents/Applications/FileMerge.app</key>
+		<data>
+		WD4t/E881pv71GmFFd988HsHHPM=
+		</data>
+		<key>/Applications/Xcode.app/Contents/Applications/Instruments.app</key>
+		<data>
+		owXpN/PABPymLPQK+N1sTodR8ao=
+		</data>
+		<key>/Applications/Xcode.app/Contents/Developer/Applications/Simulator (Watch).app</key>
+		<data>
+		kz4mHcJHSs/N67gmKYiws9X1PI0=
+		</data>
+		<key>/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app</key>
+		<data>
+		fgfx7hMXOPI91BjuMepN2z2RmcA=
+		</data>
+		<key>/System/Library/CoreServices/CoreTypes.bundle</key>
+		<data>
+		7zLIlF7gWn//MC/1qHqRhyPeGVA=
+		</data>
+	</dict>
+	<key>IDELibraryAreaUserPreferredCategories</key>
+	<array>
+		<string>Xcode.IDEKit.LibraryCategory.Files</string>
+		<string>Xcode.IDEKit.LibraryCategory.Code</string>
+	</array>
+	<key>IDELogNavigatorGroupByKey</key>
+	<false/>
+	<key>IDEPlaygroundSidebarWidth</key>
+	<real>200</real>
+	<key>IDERecentEditorDocuments</key>
+	<array>
+		<data>
+		Ym9va8gEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAxAMAAAUAAAABAQAAVXNlcnMAAAAGAAAAAQEAAHdhbmdlbAAABwAAAAEB
+		AABEZXNrdG9wAAYAAAABAQAAd2EtaW9zAAAEAAAAAQEAAFBvZHMIAAAAAQEA
+		AENhbGFiYXNoEgAAAAEBAABjYWxhYmFzaC5mcmFtZXdvcmsAAAgAAAABAQAA
+		VmVyc2lvbnMBAAAAAQEAAEEAAAAHAAAAAQEAAEhlYWRlcnMAEAAAAAEBAABD
+		YWxhYmFzaFNlcnZlci5oLAAAAAEGAAAEAAAAFAAAACQAAAA0AAAARAAAAFAA
+		AABgAAAAfAAAAIwAAACYAAAAqAAAAAgAAAAEAwAAMpgCAAAAAAAIAAAABAMA
+		AOXEBgAAAAAACAAAAAQDAAD2xAYAAAAAAAgAAAAEAwAAGVR0AAAAAAAIAAAA
+		BAMAAGZUdAAAAAAACAAAAAQDAAC5xpkAAAAAAAgAAAAEAwAAusaZAAAAAAAI
+		AAAABAMAAL7GmQAAAAAACAAAAAQDAADAxpkAAAAAAAgAAAAEAwAAwsaZAAAA
+		AAAIAAAABAMAAMPGmQAAAAAALAAAAAEGAAD0AAAABAEAABQBAAAkAQAANAEA
+		AEQBAABUAQAAZAEAAHQBAACEAQAAlAEAAAgAAAAABAAAQbw9OocAAAAYAAAA
+		AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAACQAAAAAAAAAE
+		AAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2gg
+		SEQIAAAABAMAAAAAoPYbAAAACAAAAAAEAABBu8V+YAAAACQAAAABAQAAMjYy
+		QkU5NDMtNTg5RC0zNEI1LTgxQ0YtMkM1RjI5ODZCQjIwGAAAAAECAACBAAAA
+		AQAIAO8XAAABAAgAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAAPIAAAAB
+		AgAAYjQ3Y2M0ODAyOGRjM2E5MDllODljYjYyNmMyZTc5ZTg3ZjAwNmIxNzsw
+		MDAwMDAwMDswMDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5h
+		cHAtc2FuZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzAxMDAwMDA0OzAwMDAw
+		MDAwMDA5OWM2YzM7L3VzZXJzL3dhbmdlbC9kZXNrdG9wL3dhLWlvcy9wb2Rz
+		L2NhbGFiYXNoL2NhbGFiYXNoLmZyYW1ld29yay92ZXJzaW9ucy9hL2hlYWRl
+		cnMvY2FsYWJhc2hzZXJ2ZXIuaAAAAMwAAAD+////AQAAAAAAAAAQAAAABBAA
+		AMAAAAAAAAAABRAAAKQBAAAAAAAAEBAAAOgBAAAAAAAAQBAAANgBAAAAAAAA
+		AiAAALQCAAAAAAAABSAAACQCAAAAAAAAECAAADQCAAAAAAAAESAAAGgCAAAA
+		AAAAEiAAAEgCAAAAAAAAEyAAAFgCAAAAAAAAICAAAJQCAAAAAAAAMCAAAMAC
+		AAAAAAAAAcAAAAgCAAAAAAAAEcAAABQAAAAAAAAAEsAAABgCAAAAAAAAgPAA
+		AMgCAAAAAAAA
+		</data>
+		<data>
+		Ym9va8QDAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAwAIAAAUAAAABAQAAVXNlcnMAAAAGAAAAAQEAAHdhbmdlbAAACQAAAAEB
+		AABEb2N1bWVudHMAAAAIAAAAAQEAAFByb2plY3RzBQAAAAEBAABtb25leQAA
+		AAcAAAABAQAAdGVzdC5yYgAYAAAAAQYAAAQAAAAUAAAAJAAAADgAAABIAAAA
+		WAAAAAgAAAAEAwAAMpgCAAAAAAAIAAAABAMAAOXEBgAAAAAACAAAAAQDAADm
+		xAYAAAAAAAgAAAAEAwAAUi8IAAAAAAAIAAAABAMAAMVYCAAAAAAACAAAAAQD
+		AADt478AAAAAABgAAAABBgAAiAAAAJgAAACoAAAAuAAAAMgAAADYAAAACAAA
+		AAAEAABBueqEUAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAA
+		CAAAAAQDAAAEAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8M
+		AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAACg9hsAAAAIAAAAAAQAAEG7
+		xX5gAAAAJAAAAAEBAAAyNjJCRTk0My01ODlELTM0QjUtODFDRi0yQzVGMjk4
+		NkJCMjAYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAA
+		LwAAAAAAAAABBQAAvwAAAAECAAAyOWQzNjBmYWYxMzc0YjZiN2I2ODMxN2Iy
+		NDlmYzk4YzhmMWY0OWEzOzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAwMDAw
+		MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAw
+		MDE7MDEwMDAwMDQ7MDAwMDAwMDAwMGJmZTNlZDsvdXNlcnMvd2FuZ2VsL2Rv
+		Y3VtZW50cy9wcm9qZWN0cy9tb25leS90ZXN0LnJiAADMAAAA/v///wEAAAAA
+		AAAAEAAAAAQQAABoAAAAAAAAAAUQAADoAAAAAAAAABAQAAAYAQAAAAAAAEAQ
+		AAAIAQAAAAAAAAIgAADkAQAAAAAAAAUgAABUAQAAAAAAABAgAABkAQAAAAAA
+		ABEgAACYAQAAAAAAABIgAAB4AQAAAAAAABMgAACIAQAAAAAAACAgAADEAQAA
+		AAAAADAgAADwAQAAAAAAAAHAAAA4AQAAAAAAABHAAAAUAAAAAAAAABLAAABI
+		AQAAAAAAAIDwAAD4AQAAAAAAAA==
+		</data>
+		<data>
+		Ym9va4ADAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAfAIAAAUAAAABAQAAVXNlcnMAAAAGAAAAAQEAAHdhbmdlbAAABwAAAAEB
+		AABEZXNrdG9wABcAAAABAQAAYXBwX2xpZmVfY3ljbGVfaG9va3MucmIAEAAA
+		AAEGAAAEAAAAFAAAACQAAAA0AAAACAAAAAQDAAAymAIAAAAAAAgAAAAEAwAA
+		5cQGAAAAAAAIAAAABAMAAPbEBgAAAAAACAAAAAQDAAALiroAAAAAABAAAAAB
+		BgAAbAAAAHwAAACMAAAAnAAAAAgAAAAABAAAQbxi5bIAAAAYAAAAAQIAAAEA
+		AAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAAAgAAAAAAAAAEAAAAAwMA
+		APUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAA
+		BAMAAAAAoPYbAAAACAAAAAAEAABBu8V+YAAAACQAAAABAQAAMjYyQkU5NDMt
+		NTg5RC0zNEI1LTgxQ0YtMkM1RjI5ODZCQjIwGAAAAAECAACBAAAAAQAIAO8X
+		AAABAAgAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAAL4AAAABAgAAYmI0
+		NzEyMGEyNGRiZGNlZThjZmYwMmJkNzExODdiM2UyOGJjNzZjZDswMDAwMDAw
+		MDswMDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+		ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzAxMDAwMDA0OzAwMDAwMDAwMDBi
+		YThhMGI7L3VzZXJzL3dhbmdlbC9kZXNrdG9wL2FwcF9saWZlX2N5Y2xlX2hv
+		b2tzLnJiAAAAzAAAAP7///8BAAAAAAAAABAAAAAEEAAAVAAAAAAAAAAFEAAA
+		rAAAAAAAAAAQEAAA1AAAAAAAAABAEAAAxAAAAAAAAAACIAAAoAEAAAAAAAAF
+		IAAAEAEAAAAAAAAQIAAAIAEAAAAAAAARIAAAVAEAAAAAAAASIAAANAEAAAAA
+		AAATIAAARAEAAAAAAAAgIAAAgAEAAAAAAAAwIAAArAEAAAAAAAABwAAA9AAA
+		AAAAAAARwAAAFAAAAAAAAAASwAAABAEAAAAAAACA8AAAtAEAAAAAAAA=
+		</data>
+		<data>
+		Ym9vaxQEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAEAMAAAUAAAABAQAAVXNlcnMAAAAGAAAAAQEAAHdhbmdlbAAABwAAAAEB
+		AABEZXNrdG9wAAcAAAABAQAAdHdpdHRlcgAIAAAAAQEAAGZlYXR1cmVzBQAA
+		AAEBAABwYWdlcwAAAAoAAAABAQAAdHdpdHRlci5yYgAAIAAAAAEGAAAEAAAA
+		FAAAACQAAAA0AAAARAAAADQAAABUAAAAZAAAAAgAAAAEAwAAMpgCAAAAAAAI
+		AAAABAMAAOXEBgAAAAAACAAAAAQDAAD2xAYAAAAAAAgAAAAEAwAADUBSAAAA
+		AAAIAAAABAMAABJEUgAAAAAACAAAAAQDAAC2RlIAAAAAAAgAAAAEAwAAuUZS
+		AAAAAAAIAAAABAMAALpGUgAAAAAAIAAAAAEGAACgAAAAsAAAAMAAAADQAAAA
+		4AAAAPAAAAAAAQAAEAEAAAgAAAAABAAAQbvgEiIAAAAYAAAAAQIAAAEAAAAA
+		AAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABgAAAAAAAAAEAAAAAwMAAPUB
+		AAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMA
+		AAAAoPYbAAAACAAAAAAEAABBu8V+YAAAACQAAAABAQAAMjYyQkU5NDMtNTg5
+		RC0zNEI1LTgxQ0YtMkM1RjI5ODZCQjIwGAAAAAECAACBAAAAAQAIAO8XAAAB
+		AAgAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAANAAAAABAgAAOTMwYmRi
+		MjMxMzZkZGY3ZGM2MjMwNDBhYmYzYzY4NzAzNDVjZTZiNzswMDAwMDAwMDsw
+		MDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2FuZGJv
+		eC5yZWFkLXdyaXRlOzAwMDAwMDAxOzAxMDAwMDA0OzAwMDAwMDAwMDA1MjQ2
+		YmE7L3VzZXJzL3dhbmdlbC9kZXNrdG9wL3R3aXR0ZXIvZmVhdHVyZXMvdHdp
+		dHRlci9wYWdlcy90d2l0dGVyLnJiAMwAAAD+////AQAAAAAAAAAQAAAABBAA
+		AHgAAAAAAAAABRAAACABAAAAAAAAEBAAAFgBAAAAAAAAQBAAAEgBAAAAAAAA
+		AiAAACQCAAAAAAAABSAAAJQBAAAAAAAAECAAAKQBAAAAAAAAESAAANgBAAAA
+		AAAAEiAAALgBAAAAAAAAEyAAAMgBAAAAAAAAICAAAAQCAAAAAAAAMCAAADAC
+		AAAAAAAAAcAAAHgBAAAAAAAAEcAAABQAAAAAAAAAEsAAAIgBAAAAAAAAgPAA
+		ADgCAAAAAAAA
+		</data>
+		<data>
+		Ym9va4AEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAfAMAAAUAAAABAQAAVXNlcnMAAAAGAAAAAQEAAHdhbmdlbAAABwAAAAEB
+		AABEZXNrdG9wAA0AAAABAQAAd2EtYXV0b21hdGlvbgAAAAgAAAABAQAAZmVh
+		dHVyZXMIAAAAAQEAAHBsYXRmb3JtBwAAAAEBAABBbmRyb2lkAAcAAAABAQAA
+		c3VwcG9ydAAXAAAAAQEAAGFwcF9saWZlX2N5Y2xlX2hvb2tzLnJiACQAAAAB
+		BgAABAAAABQAAAAkAAAANAAAAEwAAABcAAAAbAAAAHwAAACMAAAACAAAAAQD
+		AAAymAIAAAAAAAgAAAAEAwAA5cQGAAAAAAAIAAAABAMAAPbEBgAAAAAACAAA
+		AAQDAADb9QYAAAAAAAgAAAAEAwAAE/YGAAAAAAAIAAAABAMAAOyjugAAAAAA
+		CAAAAAQDAAA4EqgAAAAAAAgAAAAEAwAAIei2AAAAAAAIAAAABAMAACXotgAA
+		AAAAJAAAAAEGAADYAAAA6AAAAPgAAAAIAQAAGAEAACgBAAA4AQAASAEAAFgB
+		AAAIAAAAAAQAAEG8EJVSAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+		AAAAAAAIAAAABAMAAAcAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxl
+		Oi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAAKD2GwAAAAgAAAAA
+		BAAAQbvFfmAAAAAkAAAAAQEAADI2MkJFOTQzLTU4OUQtMzRCNS04MUNGLTJD
+		NUYyOTg2QkIyMBgAAAABAgAAgQAAAAEACADvFwAAAQAIAAAAAAAAAAAAAQAA
+		AAEBAAAvAAAAAAAAAAEFAADuAAAAAQIAADY5NmY0YTNmNTM3YTE3NDQzZDM0
+		MWM5Zjc0YzM2OTQwY2Y0YTlmODI7MDAwMDAwMDA7MDAwMDAwMDA7MDAwMDAw
+		MDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNhbmRib3gucmVhZC13cml0ZTsw
+		MDAwMDAwMTswMTAwMDAwNDswMDAwMDAwMDAwYjZlODI1Oy91c2Vycy93YW5n
+		ZWwvZGVza3RvcC93YS1hdXRvbWF0aW9uL2ZlYXR1cmVzL3BsYXRmb3JtL2Fu
+		ZHJvaWQvc3VwcG9ydC9hcHBfbGlmZV9jeWNsZV9ob29rcy5yYgAAAMwAAAD+
+		////AQAAAAAAAAAQAAAABBAAAKwAAAAAAAAABRAAAGgBAAAAAAAAEBAAAKQB
+		AAAAAAAAQBAAAJQBAAAAAAAAAiAAAHACAAAAAAAABSAAAOABAAAAAAAAECAA
+		APABAAAAAAAAESAAACQCAAAAAAAAEiAAAAQCAAAAAAAAEyAAABQCAAAAAAAA
+		ICAAAFACAAAAAAAAMCAAAHwCAAAAAAAAAcAAAMQBAAAAAAAAEcAAABQAAAAA
+		AAAAEsAAANQBAAAAAAAAgPAAAIQCAAAAAAAA
+		</data>
+		<data>
+		Ym9va3QEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAcAMAAAUAAAABAQAAVXNlcnMAAAAGAAAAAQEAAHdhbmdlbAAABwAAAAEB
+		AABEZXNrdG9wAA0AAAABAQAAd2EtYXV0b21hdGlvbgAAAAgAAAABAQAAZmVh
+		dHVyZXMIAAAAAQEAAHBsYXRmb3JtBgAAAAEBAABIZXJtZXMAABAAAAABAQAA
+		c3RlcF9kZWZpbml0aW9ucwkAAAABAQAAd2FsbGV0LnJiAAAAJAAAAAEGAAAE
+		AAAAFAAAACQAAAA0AAAATAAAAFwAAABsAAAAfAAAAJQAAAAIAAAABAMAADKY
+		AgAAAAAACAAAAAQDAADlxAYAAAAAAAgAAAAEAwAA9sQGAAAAAAAIAAAABAMA
+		ANv1BgAAAAAACAAAAAQDAAAT9gYAAAAAAAgAAAAEAwAA7KO6AAAAAAAIAAAA
+		BAMAAD9LCQAAAAAACAAAAAQDAABfSwkAAAAAAAgAAAAEAwAAjtG6AAAAAAAk
+		AAAAAQYAANQAAADkAAAA9AAAAAQBAAAUAQAAJAEAADQBAABEAQAAVAEAAAgA
+		AAAABAAAQbwQlVIAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAA
+		AAgAAAAEAwAABwAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8v
+		DAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAAoPYbAAAACAAAAAAEAABB
+		u8V+YAAAACQAAAABAQAAMjYyQkU5NDMtNTg5RC0zNEI1LTgxQ0YtMkM1RjI5
+		ODZCQjIwGAAAAAECAACBAAAAAQAIAO8XAAABAAgAAAAAAAAAAAABAAAAAQEA
+		AC8AAAAAAAAAAQUAAOgAAAABAgAAOTI5MGJiMmVlMzBjZjFkMDdlMTI5Njcx
+		OTk5MTBkZjA2ZDc4OWUyOTswMDAwMDAwMDswMDAwMDAwMDswMDAwMDAwMDAw
+		MDAwMDIwO2NvbS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdyaXRlOzAwMDAw
+		MDAxOzAxMDAwMDA0OzAwMDAwMDAwMDBiYWQxOGU7L3VzZXJzL3dhbmdlbC9k
+		ZXNrdG9wL3dhLWF1dG9tYXRpb24vZmVhdHVyZXMvcGxhdGZvcm0vaGVybWVz
+		L3N0ZXBfZGVmaW5pdGlvbnMvd2FsbGV0LnJiAMwAAAD+////AQAAAAAAAAAQ
+		AAAABBAAAKgAAAAAAAAABRAAAGQBAAAAAAAAEBAAAKABAAAAAAAAQBAAAJAB
+		AAAAAAAAAiAAAGwCAAAAAAAABSAAANwBAAAAAAAAECAAAOwBAAAAAAAAESAA
+		ACACAAAAAAAAEiAAAAACAAAAAAAAEyAAABACAAAAAAAAICAAAEwCAAAAAAAA
+		MCAAAHgCAAAAAAAAAcAAAMABAAAAAAAAEcAAABQAAAAAAAAAEsAAANABAAAA
+		AAAAgPAAAIACAAAAAAAA
+		</data>
+		<data>
+		Ym9va2gEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAZAMAAAUAAAABAQAAVXNlcnMAAAAGAAAAAQEAAHdhbmdlbAAABwAAAAEB
+		AABEZXNrdG9wAA0AAAABAQAAd2EtYXV0b21hdGlvbgAAAAgAAAABAQAAZmVh
+		dHVyZXMIAAAAAQEAAHBsYXRmb3JtAwAAAAEBAABBcGkAEAAAAAEBAABzdGVw
+		X2RlZmluaXRpb25zBgAAAAEBAABhcGkucmIAACQAAAABBgAABAAAABQAAAAk
+		AAAANAAAAEwAAABcAAAAbAAAAHgAAACQAAAACAAAAAQDAAAymAIAAAAAAAgA
+		AAAEAwAA5cQGAAAAAAAIAAAABAMAAPbEBgAAAAAACAAAAAQDAADb9QYAAAAA
+		AAgAAAAEAwAAE/YGAAAAAAAIAAAABAMAAOyjugAAAAAACAAAAAQDAAAoSwkA
+		AAAAAAgAAAAEAwAA8826AAAAAAAIAAAABAMAAH7RugAAAAAAJAAAAAEGAADM
+		AAAA3AAAAOwAAAD8AAAADAEAABwBAAAsAQAAPAEAAEwBAAAIAAAAAAQAAEG8
+		EJVaAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMA
+		AAcAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwAAAABAQAA
+		TWFjaW50b3NoIEhECAAAAAQDAAAAAKD2GwAAAAgAAAAABAAAQbvFfmAAAAAk
+		AAAAAQEAADI2MkJFOTQzLTU4OUQtMzRCNS04MUNGLTJDNUYyOTg2QkIyMBgA
+		AAABAgAAgQAAAAEACADvFwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAA
+		AAEFAADiAAAAAQIAADI1NWQ1ZDdkNDMxZjczYmUyMTQ0NTdhYzdiYmEyNDc2
+		NWU1ZWU2ZGM7MDAwMDAwMDA7MDAwMDAwMDA7MDAwMDAwMDAwMDAwMDAyMDtj
+		b20uYXBwbGUuYXBwLXNhbmRib3gucmVhZC13cml0ZTswMDAwMDAwMTswMTAw
+		MDAwNDswMDAwMDAwMDAwYmFkMTdlOy91c2Vycy93YW5nZWwvZGVza3RvcC93
+		YS1hdXRvbWF0aW9uL2ZlYXR1cmVzL3BsYXRmb3JtL2FwaS9zdGVwX2RlZmlu
+		aXRpb25zL2FwaS5yYgAAAMwAAAD+////AQAAAAAAAAAQAAAABBAAAKAAAAAA
+		AAAABRAAAFwBAAAAAAAAEBAAAJgBAAAAAAAAQBAAAIgBAAAAAAAAAiAAAGQC
+		AAAAAAAABSAAANQBAAAAAAAAECAAAOQBAAAAAAAAESAAABgCAAAAAAAAEiAA
+		APgBAAAAAAAAEyAAAAgCAAAAAAAAICAAAEQCAAAAAAAAMCAAAHACAAAAAAAA
+		AcAAALgBAAAAAAAAEcAAABQAAAAAAAAAEsAAAMgBAAAAAAAAgPAAAHgCAAAA
+		AAAA
+		</data>
+		<data>
+		Ym9va3gEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAdAMAAAUAAAABAQAAVXNlcnMAAAAGAAAAAQEAAHdhbmdlbAAABwAAAAEB
+		AABEZXNrdG9wAA0AAAABAQAAd2EtYXV0b21hdGlvbgAAAAgAAAABAQAAZmVh
+		dHVyZXMIAAAAAQEAAHBsYXRmb3JtAwAAAAEBAABBcGkAEAAAAAEBAABzdGVw
+		X2RlZmluaXRpb25zDQAAAAEBAABhZmZpbGlhdGVzLnJiAAAAJAAAAAEGAAAE
+		AAAAFAAAACQAAAA0AAAATAAAAFwAAABsAAAAeAAAAJAAAAAIAAAABAMAADKY
+		AgAAAAAACAAAAAQDAADlxAYAAAAAAAgAAAAEAwAA9sQGAAAAAAAIAAAABAMA
+		ANv1BgAAAAAACAAAAAQDAAAT9gYAAAAAAAgAAAAEAwAA7KO6AAAAAAAIAAAA
+		BAMAAChLCQAAAAAACAAAAAQDAADzzboAAAAAAAgAAAAEAwAA9M26AAAAAAAk
+		AAAAAQYAANQAAADkAAAA9AAAAAQBAAAUAQAAJAEAADQBAABEAQAAVAEAAAgA
+		AAAABAAAQbwQlVoAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAA
+		AAgAAAAEAwAABwAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8v
+		DAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAAoPYbAAAACAAAAAAEAABB
+		u8V+YAAAACQAAAABAQAAMjYyQkU5NDMtNTg5RC0zNEI1LTgxQ0YtMkM1RjI5
+		ODZCQjIwGAAAAAECAACBAAAAAQAIAO8XAAABAAgAAAAAAAAAAAABAAAAAQEA
+		AC8AAAAAAAAAAQUAAOkAAAABAgAAMGZhMTFhZDA0NTgzM2I4NjY0ZmQwNzAz
+		NzRiZmQyYmQ4ZjA0ZTA4NzswMDAwMDAwMDswMDAwMDAwMDswMDAwMDAwMDAw
+		MDAwMDIwO2NvbS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdyaXRlOzAwMDAw
+		MDAxOzAxMDAwMDA0OzAwMDAwMDAwMDBiYWNkZjQ7L3VzZXJzL3dhbmdlbC9k
+		ZXNrdG9wL3dhLWF1dG9tYXRpb24vZmVhdHVyZXMvcGxhdGZvcm0vYXBpL3N0
+		ZXBfZGVmaW5pdGlvbnMvYWZmaWxpYXRlcy5yYgAAAADMAAAA/v///wEAAAAA
+		AAAAEAAAAAQQAACoAAAAAAAAAAUQAABkAQAAAAAAABAQAACgAQAAAAAAAEAQ
+		AACQAQAAAAAAAAIgAABsAgAAAAAAAAUgAADcAQAAAAAAABAgAADsAQAAAAAA
+		ABEgAAAgAgAAAAAAABIgAAAAAgAAAAAAABMgAAAQAgAAAAAAACAgAABMAgAA
+		AAAAADAgAAB4AgAAAAAAAAHAAADAAQAAAAAAABHAAAAUAAAAAAAAABLAAADQ
+		AQAAAAAAAIDwAACAAgAAAAAAAA==
+		</data>
+		<data>
+		Ym9va4QEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAgAMAAAUAAAABAQAAVXNlcnMAAAAGAAAAAQEAAHdhbmdlbAAABwAAAAEB
+		AABEZXNrdG9wAA0AAAABAQAAd2EtYXV0b21hdGlvbgAAAAgAAAABAQAAZmVh
+		dHVyZXMIAAAAAQEAAHBsYXRmb3JtBwAAAAEBAABBbmRyb2lkAAcAAAABAQAA
+		c3VwcG9ydAAZAAAAAQEAAGFwcF9pbnN0YWxsYXRpb25faG9va3MucmIAAAAk
+		AAAAAQYAAAQAAAAUAAAAJAAAADQAAABMAAAAXAAAAGwAAAB8AAAAjAAAAAgA
+		AAAEAwAAMpgCAAAAAAAIAAAABAMAAOXEBgAAAAAACAAAAAQDAAD2xAYAAAAA
+		AAgAAAAEAwAA2/UGAAAAAAAIAAAABAMAABP2BgAAAAAACAAAAAQDAADso7oA
+		AAAAAAgAAAAEAwAAOBKoAAAAAAAIAAAABAMAACHotgAAAAAACAAAAAQDAAAI
+		vboAAAAAACQAAAABBgAA3AAAAOwAAAD8AAAADAEAABwBAAAsAQAAPAEAAEwB
+		AABcAQAACAAAAAAEAABBvBCVUgAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAA
+		AAAAAAAAAAAACAAAAAQDAAAHAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAA
+		ZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAACg9hsAAAAI
+		AAAAAAQAAEG7xX5gAAAAJAAAAAEBAAAyNjJCRTk0My01ODlELTM0QjUtODFD
+		Ri0yQzVGMjk4NkJCMjAYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAA
+		AAEAAAABAQAALwAAAAAAAAABBQAA8AAAAAECAABmZDcyOTQzOWRkNDViYTNj
+		MTA0NGUwZmZiN2FhYjgyMjExYzYwZDIxOzAwMDAwMDAwOzAwMDAwMDAwOzAw
+		MDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3Jp
+		dGU7MDAwMDAwMDE7MDEwMDAwMDQ7MDAwMDAwMDAwMGJhYmQwODsvdXNlcnMv
+		d2FuZ2VsL2Rlc2t0b3Avd2EtYXV0b21hdGlvbi9mZWF0dXJlcy9wbGF0Zm9y
+		bS9hbmRyb2lkL3N1cHBvcnQvYXBwX2luc3RhbGxhdGlvbl9ob29rcy5yYgDM
+		AAAA/v///wEAAAAAAAAAEAAAAAQQAACwAAAAAAAAAAUQAABsAQAAAAAAABAQ
+		AACoAQAAAAAAAEAQAACYAQAAAAAAAAIgAAB0AgAAAAAAAAUgAADkAQAAAAAA
+		ABAgAAD0AQAAAAAAABEgAAAoAgAAAAAAABIgAAAIAgAAAAAAABMgAAAYAgAA
+		AAAAACAgAABUAgAAAAAAADAgAACAAgAAAAAAAAHAAADIAQAAAAAAABHAAAAU
+		AAAAAAAAABLAAADYAQAAAAAAAIDwAACIAgAAAAAAAA==
+		</data>
+		<data>
+		Ym9vaywEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAKAMAAAUAAAABAQAAVXNlcnMAAAAGAAAAAQEAAHdhbmdlbAAABwAAAAEB
+		AABEZXNrdG9wABEAAAABAQAAd2EtYXV0b21hdGlvbi1kZXYAAAAIAAAAAQEA
+		AGZlYXR1cmVzBwAAAAEBAABzdXBwb3J0ABkAAAABAQAAYXBwX2luc3RhbGxh
+		dGlvbl9ob29rcy5yYgAAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFAAAABg
+		AAAAcAAAAAgAAAAEAwAAMpgCAAAAAAAIAAAABAMAAOXEBgAAAAAACAAAAAQD
+		AAD2xAYAAAAAAAgAAAAEAwAADLq6AAAAAAAIAAAABAMAABe6ugAAAAAACAAA
+		AAQDAAC3uroAAAAAAAgAAAAEAwAAubq6AAAAAAAcAAAAAQYAALgAAADIAAAA
+		2AAAAOgAAAD4AAAACAEAABgBAAAIAAAAAAQAAEG8YuWyAAAAGAAAAAECAAAB
+		AAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMAAAUAAAAAAAAABAAAAAMD
+		AAD1AQAACAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAA
+		AAQDAAAAAKD2GwAAAAgAAAAABAAAQbvFfmAAAAAkAAAAAQEAADI2MkJFOTQz
+		LTU4OUQtMzRCNS04MUNGLTJDNUYyOTg2QkIyMBgAAAABAgAAgQAAAAEACADv
+		FwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADjAAAAAQIAADVk
+		YTk0MzlkNzZlZjM4ZGUxN2NjYjAyNGUyNzRhMWFiYmFmYTU1ZDE7MDAwMDAw
+		MDA7MDAwMDAwMDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNh
+		bmRib3gucmVhZC13cml0ZTswMDAwMDAwMTswMTAwMDAwNDswMDAwMDAwMDAw
+		YmFiYWI5Oy91c2Vycy93YW5nZWwvZGVza3RvcC93YS1hdXRvbWF0aW9uLWRl
+		di9mZWF0dXJlcy9zdXBwb3J0L2FwcF9pbnN0YWxsYXRpb25faG9va3MucmIA
+		AMwAAAD+////AQAAAAAAAAAQAAAABBAAAJQAAAAAAAAABRAAACgBAAAAAAAA
+		EBAAAFwBAAAAAAAAQBAAAEwBAAAAAAAAAiAAACgCAAAAAAAABSAAAJgBAAAA
+		AAAAECAAAKgBAAAAAAAAESAAANwBAAAAAAAAEiAAALwBAAAAAAAAEyAAAMwB
+		AAAAAAAAICAAAAgCAAAAAAAAMCAAADQCAAAAAAAAAcAAAHwBAAAAAAAAEcAA
+		ABQAAAAAAAAAEsAAAIwBAAAAAAAAgPAAADwCAAAAAAAA
+		</data>
+	</array>
+	<key>IDESourceControlKnownSSHHostsDefaultsKey</key>
+	<dict>
+		<key>github.com</key>
+		<string>1627ACA576282D36631B564DEBDFA648</string>
+		<key>iosci.local</key>
+		<string>235D067D56576F6C892EAF5EC7318869</string>
+	</dict>
+	<key>IDESourceControlPreferencesVersion</key>
+	<integer>201</integer>
+	<key>IDESourceControlRecentsFavoritesRepositoriesUserDefaultsKey</key>
+	<array>
+		<dict>
+			<key>DVTSourceControlWorkspaceBlueprintFavoriteStatusKey</key>
+			<false/>
+			<key>DVTSourceControlWorkspaceBlueprintIdentifierKey</key>
+			<string>19D2DB69-40CE-4227-9312-68224A5C2103</string>
+			<key>DVTSourceControlWorkspaceBlueprintNameKey</key>
+			<string>WorkAngel</string>
+			<key>DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey</key>
+			<string>305BDE4E1EFFFCFC374396DE5EBC60038A765D33</string>
+			<key>DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey</key>
+			<string>WorkAngel.xcworkspace</string>
+			<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey</key>
+			<array>
+				<dict>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey</key>
+					<string>305BDE4E1EFFFCFC374396DE5EBC60038A765D33</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey</key>
+					<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey</key>
+					<string>https://github.com/workivate/wa-ios.git</string>
+				</dict>
+				<dict>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey</key>
+					<string>DA2C878CC8227821D22493F92D37CCBA84E2C635</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey</key>
+					<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey</key>
+					<string>https://github.com/alexito4/AMPActivityIndicator.git</string>
+				</dict>
+			</array>
+			<key>DVTSourceControlWorkspaceBlueprintVersion</key>
+			<integer>204</integer>
+			<key>DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey</key>
+			<dict>
+				<key>305BDE4E1EFFFCFC374396DE5EBC60038A765D33</key>
+				<string>wa-ios</string>
+				<key>DA2C878CC8227821D22493F92D37CCBA84E2C635</key>
+				<string>AMPActivityIndicator/</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>DVTSourceControlWorkspaceBlueprintFavoriteStatusKey</key>
+			<false/>
+			<key>DVTSourceControlWorkspaceBlueprintIdentifierKey</key>
+			<string>09632B3C-BEB6-4262-9777-BC49694B3849</string>
+			<key>DVTSourceControlWorkspaceBlueprintNameKey</key>
+			<string>WorkAngel</string>
+			<key>DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey</key>
+			<string>305BDE4E1EFFFCFC374396DE5EBC60038A765D33</string>
+			<key>DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey</key>
+			<string>WorkAngel.xcodeproj</string>
+			<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey</key>
+			<array>
+				<dict>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey</key>
+					<string>305BDE4E1EFFFCFC374396DE5EBC60038A765D33</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey</key>
+					<string>com.apple.dt.Xcode.sourcecontrol.Git</string>
+					<key>DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey</key>
+					<string>https://github.com/workivate/wa-ios.git</string>
+				</dict>
+			</array>
+			<key>DVTSourceControlWorkspaceBlueprintVersion</key>
+			<integer>204</integer>
+			<key>DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey</key>
+			<dict>
+				<key>305BDE4E1EFFFCFC374396DE5EBC60038A765D33</key>
+				<string>wa-ios/</string>
+			</dict>
+		</dict>
+	</array>
+	<key>IDESourceTreeDisplayNames</key>
+	<dict/>
+	<key>IDETemplateCompletionDefaultPath</key>
+	<string>/Users/wangel/Desktop</string>
+	<key>IDETemplateOptions</key>
+	<dict>
+		<key>platform</key>
+		<string>iOS</string>
+	</dict>
+	<key>IDEUserWantsToEnableDeveloperMode</key>
+	<true/>
+	<key>NSNavLastRootDirectory</key>
+	<string>~/Desktop/wa-ios</string>
+	<key>NSNavPanelExpandedSizeForOpenMode</key>
+	<string>{712, 470}</string>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/01EEBA70-6691-45D9-A6FC-59289C974350</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/060D3E33-AD78-4E9E-BE08-F4D480AA94C8</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/07F858F7-54DB-4DAD-99AC-145CB8275D90</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/09FB0EAB-1C77-4761-A8D3-CAA68F84E9D5</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/0C158BFC-49C4-4581-93AE-C8470CD39A5E</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/0E051802-A103-4B28-9A5B-B396D94A3327</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/0E1C12C5-2180-4C10-B902-D12414FA7630</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/0F015F5F-CCB5-4363-81D1-7EE0E7F9BD33</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/1206BEF0-F268-4275-AA79-3B66E47434CD</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/1445F8CC-1A27-4F95-A9A9-C01D2755EE5F</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/17406DE1-C219-41D1-B145-39B16ED1D369</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/177680C3-BA04-48AD-8594-D9BD02EB8B4D</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/17840806-4777-4803-8C9A-636A09E0ECE7</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/19DE1258-A2EA-4531-B4C2-7303FDDEAE81</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/1AB93564-91BE-4A44-B526-0E5BDC2A7AA6</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/22D033C9-33A6-44AD-B7AC-B980E466BC7D</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/22FB997A-F64A-4190-959B-6BD5FFA8FBEE</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/243E2662-35D7-48E0-84B3-E8080E517FAA</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/25EC910F-98E6-46A4-9CC1-281A62AE45F3</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/2781B3A5-0985-4ADA-8DFD-B1ABBF3C4A57</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/27B996BA-DBD4-4880-B3F1-2EACB845A534</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/29028BE5-EF26-4ABF-9399-8A649C47F83C</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/29942737-0761-47F7-A9D5-DA3FB8B3FBF3</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/2C22E453-3084-49C0-B6BD-2E8797707F80</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/2D7004AA-6928-4A87-9939-F94A8AE84F3C</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/31129647-46AE-4E1D-9E58-BDD41FAC35DE</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/32E67B7A-3456-4730-9E23-FE013C0C77F8</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/35DB50E6-D6DE-4E62-844E-FAC8175F5BAC</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/36E4DE36-B874-42BE-B0E2-9710181E2C74</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/39018D17-148A-4776-9006-994A145EA27C</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/3B30FC37-FEDC-419A-8FF4-7A1EE7E9F6F6</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/3EBA2E11-40C8-4F34-B280-4A3E2A294F70</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/3F5036B5-49C9-498E-A219-2148DCB780D9</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/3FC4C149-2A7F-43C0-9F40-57AD934AA1B6</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/40DC8850-FDBB-4BEA-BB86-C284C7A5F0D8</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/415806E0-1275-4F72-B71E-D2F49D847BD0</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/43ED39BA-51A1-4626-A4F9-BBCCA24DD191</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/4488ED56-55DB-4FFE-9622-36467B0C45FD</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/44B8AD23-2272-4EA5-9E77-8FBF1DA66400</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/46BBE023-2880-4AB9-804E-C9777235E165</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/47288C95-77E6-4238-9F61-DE351D0C6305</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/47745C6D-F25C-4783-A65C-07E51999C34E</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/47CF03F2-A6AE-46AD-8E38-3CCB33EA1B66</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/4821112D-FB0B-4E23-AD63-E0F55A16C975</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/496D2B59-F437-4EBE-830D-6F69FC36CBA2</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/4DCF06BD-9388-4269-8832-F7AE67E535FD</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/4E4FAE03-9550-4F4F-A2A2-9D57E6AA7960</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/51473433-D235-48C2-BAA7-856CDC7155F7</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/5219FF3B-5C87-4A99-8E74-82ACAB45AF5F</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/52495D9C-68EA-47C2-8B10-53AC3D760EE7</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/539EF756-FF94-4DCA-AA95-803078316C3C</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/559BD5FB-98A4-4F62-B3B4-0674F15629CE</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/561FE6C8-907C-458A-9CDB-72CA77FA1100</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/57A755BF-2B8F-42B7-8236-0D57FCD62D53</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/5C15026E-FDA7-4610-A6C6-A9DFB1F9904C</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/5D6B703A-986C-4904-B641-B0FCFEF6E5D3</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/5F5A3DBF-0B01-4082-A90E-5B717968429B</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/616DF106-FC31-4EB7-906A-ECA5BB50B60F</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/663073E5-55B5-4CC7-9A35-34DC83C096DC</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/6690A2AD-A574-40E0-9C95-705777480A62</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/6C07AA77-7193-4DE4-BB65-222DBEDBBCC4</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/6E0D0B11-DA2D-4BEA-A26C-0F8C5BF1CC5F</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/6E476D96-5BEA-429A-8322-6BAAE0A1482F</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/72187705-A052-4978-84C2-B8C064686148</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/783B0261-433D-4E56-9221-236B486DE308</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/7C5B47F7-560D-438D-A624-DC2FC408E4C3</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/7D0D3285-AFFD-49F1-8E37-D19FA5588061</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/8091FFAA-01C4-416B-B0DC-2E2DE6168C84</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/80CA5612-2DFA-4295-A137-638E5B815154</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/844CDD0E-9FD3-490E-AABF-05C038AD9EA2</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/84AA618E-F20C-4824-AFDB-F63C3550C58C</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/8C44DCAB-84F1-4749-A60D-8184088974DF</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/8F5EBB90-AA49-4E55-BE39-D2F2D70914C9</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/9405A913-18AE-490B-964E-DBD63D1F0F48</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/9A7C84F5-6D8F-413E-9F39-AA484D939F8D</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/9BAD1AF3-DFC0-4A81-A15B-67629CD4E393</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/9E151680-BF65-4A3B-8248-0E9C1129D460</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/9E285922-A129-489D-B9FB-D0995A2B5775</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/A3F91903-9D5F-4559-80C0-8AB3A72F92E8</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/AB5D409B-6AEE-45B1-8DD4-DE510626B6DD</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/ABEF231E-550D-433C-84BE-9C6DDC959929</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/AE4A8422-DCC9-4BDF-A837-C3E5AD3CD74B</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/AE6DA548-B332-4540-BD1E-CAB4F301560A</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/AEB5C5E4-9CE6-41AA-BA24-EAF671187190</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/B44D0812-CCD8-4849-BDE5-7EAD289F111E</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/B4E312EE-24C3-46F7-AFE0-31C046263D31</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/B620DF39-341A-4771-BD21-183B9E560DE4</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/BA53AEBC-BC2A-49CB-B6EE-E1B3E3A546FC</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/BA9E5C8C-4C20-44CC-8F8E-20F030519048</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/BC113EDF-1952-4354-A760-E956D914011F</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/BEBCC2EB-F3FA-464F-B8BD-C24F9F29131E</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/C1289B3D-5844-4770-BE25-12366E853487</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/C3D5D627-7D66-4BB2-A9F3-2BD4A70D2F81</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/C48B07C6-F95C-41E2-95BB-DE935B5E9E26</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/C8619B3B-AED0-4BEC-9554-E28989934F9C</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/CD1A2FAF-4379-4AAA-8EC6-5A628AC9C75F</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/CEE8726E-D382-4107-B780-2ED76993755F</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/D14D2726-5797-4969-94EE-758FABC75A01</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/D369745A-0C2A-42F3-B37F-82455941C1CA</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/D4FCDCE7-39E5-42F0-8CD5-996E16E33C0B</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/D6CC1CA8-3C36-4B7D-ABCE-6FC5A4293C3F</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/D892A58C-BDEA-4C84-9D52-AFA1D7E42238</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/D9F9C3C6-A938-40B0-B994-265B288652C2</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/DB229A7C-F96E-42AA-A705-DA4ABE6821AE</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/DF452427-1790-4201-8C92-9C48B882A683</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/E20B018A-7859-417E-B264-348C1B65867D</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/E6A7B917-6745-450C-87CB-905446239D82</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/EACEB37D-3EDD-4AB8-8B76-C36CC0BACC91</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/F070AD75-56B5-41A2-9124-236F18657CF1</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/F1DE055D-206F-4440-91FC-E8000E33F406</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/F303D857-0034-464D-BF8F-8FEB696DC263</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/F38757B7-05AF-4A83-AA73-4DE370238858</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/F4F3EC93-4100-41EB-9B6B-B9A211EF1EBC</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/F6E863ED-EC5E-4EB3-A722-D182A57238F6</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/F7EE91D8-D7CC-4823-8B13-E4FF029750BC</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/F90CA548-57A1-43C4-8320-DF7EDA5B05A6</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/FA6A5CB1-D426-4C53-8ADA-675DC68CA1CF</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/FAF7FC27-AF7B-4B41-A580-A2AF54B6C93B</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.SimpleFilesFocused/FBB23C35-B63A-430C-AB95-1E64120F2A97</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/1994C289-F795-4D84-9735-80D1BDC9746F</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/323F5EFD-8993-4F7A-9F3A-0F874DC24FF8</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/434220E6-4930-4B5D-9DB4-EA4FC1369DF6</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/7CB68F1F-6693-46F1-83FE-F47B45BCF102</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/BD18D84C-AEB5-48F1-A544-2E0CE1FA05AD</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/C9606914-8A13-4E1C-B12B-35BF1080F04B</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/CD0D2801-03CD-432D-9AA0-F10C90C5E9AE</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/D26D3F4B-5507-4A79-99C5-407C2218D92A</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/EDBC5B87-7609-4628-8AE9-AC9214DD6C53</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Xcode.IDEKit.ToolbarDefinition.Workspace/F29A6EC2-BC80-4C0D-8BC5-15518CE2B9E1</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6-WithTitleBarOnly</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Run</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.MultiStop</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.ActiveScheme</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-6</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Activity</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.EditorMode</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Separator</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Views</string>
+			<string>Xcode.IDEKit.CustomToolbarItem.Space-3-WithTitleBarOnly</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWindow Frame Devices Window</key>
+	<string>-243 1116 810 600 -332 800 1920 1057 </string>
+	<key>NSWindow Frame IDEEditSchemeWindow</key>
+	<string>73 1307 896 526 -332 800 1920 1057 </string>
+	<key>NSWindow Frame IDEPreferencesPanel</key>
+	<string>253 1223 750 492 -332 800 1920 1057 </string>
+	<key>Xcode3ProjectEditorSourceListVisible</key>
+	<false/>
+</dict>
+</plist>

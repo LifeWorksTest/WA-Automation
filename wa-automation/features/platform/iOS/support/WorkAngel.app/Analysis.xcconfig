@@ -1,0 +1,30 @@
+
+// Contains any rules regarding warnings or other compiler analysis of the code.
+
+// Which Clang Warning Is Generating This Message?
+// http://fuckingclangwarnings.com
+
+WA_ANALYZER_FLAGS =
+
+// Warning docs (October 2016) http://clang.llvm.org/docs/DiagnosticsReference.html:
+// -Wall -> -Wmost, -Wparentheses, -Wswitch, -Wswitch-bool
+// -Wmost -> -Wcast-of-sel-type, -Wchar-subscripts, -Wcomment, -Wdelete-non-virtual-dtor, -Wextern-c-compat, -Wfor-loop-analysis, -Wformat, -Wimplicit, -Winfinite-recursion, -Wmismatched-tags, -Wmissing-braces, -Wmove, -Wmultichar, -Wobjc-designated-initializers, -Wobjc-missing-super-calls, -Woverloaded-virtual, -Wprivate-extern, -Wreorder, -Wreturn-type, -Wself-assign, -Wself-move, -Wsizeof-array-argument, -Wsizeof-array-decay, -Wstring-plus-int, -Wtrigraphs, -Wuninitialized, -Wunknown-pragmas, -Wunused, -Wvolatile-register-var
+// -Wextra -> -Wignored-qualifiers, -Winitializer-overrides, -Wmissing-field-initializers, -Wmissing-method-return-type, -Wsemicolon-before-method-body, -Wsign-compare, -Wunused-parameter
+
+WA_DISABLE_WARNINGS = -Wno-unused-parameter -Wno-sign-conversion
+
+WA_ENABLE_EXTRA_WARNINGS = -Wunreachable-code-aggressive -Wconditional-uninitialized -Wundeclared-selector -Wconversion -Wstrict-selector-match -Wshadow -Wmissing-prototypes -Wobjc-root-class -Wdeprecated-objc-isa-usage -Warc-repeated-use-of-weak -Wimplicit-retain-self -Wimplicit-atomic-properties -Wexplicit-ownership-type -Wdeprecated-implementations -Wassign-enum -Wempty-body -Wduplicate-method-match
+
+WA_WARNINGS_AS_ERRORS = -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Werror-objc-root-class -Werror-deprecated-objc-isa-usage
+
+WA_WARNINGS_CFLAGS =  -Wall -Wextra $(WA_ENABLE_EXTRA_WARNINGS) $(WA_DISABLE_WARNINGS) $(WA_WARNINGS_AS_ERRORS)
+
+// PSPDFKit Clang Warnings and Analyzer alpha checkers https://gist.github.com/steipete/86c4db2cda22aa7427bb453907885c1f
+//ANALYZER_FLAGS = -Xclang -analyzer-checker -Xclang alpha.core.BoolAssignment -Xclang -analyzer-checker -Xclang alpha.core.CallAndMessageUnInitRefArg -Xclang -analyzer-checker -Xclang alpha.core.DynamicTypeChecker -Xclang -analyzer-checker -Xclang alpha.core.FixedAddr -Xclang -analyzer-checker -Xclang alpha.core.IdenticalExpr -Xclang -analyzer-checker -Xclang alpha.core.PointerSub -Xclang -analyzer-checker -Xclang alpha.core.SizeofPtr -Xclang -analyzer-checker -Xclang alpha.core.TestAfterDivZero -Xclang -analyzer-checker -Xclang alpha.security.ArrayBoundV2 -Xclang -analyzer-checker -Xclang alpha.security.MallocOverflow -Xclang -analyzer-checker -Xclang alpha.security.ReturnPtrRange -Xclang -analyzer-checker -Xclang alpha.security.taint.TaintPropagation
+
+//WA_WARNINGS_CFLAGS =  -Weverything -Wno-error-deprecated-declarations -Wno-error-deprecated-implementations -Wno-objc-missing-property-synthesis  -Wno-covered-switch-default -Wno-direct-ivar-access -Wno-assign-enum -Wno-float-equal -Wno-vla -Wno-documentation-unknown-command -Wno-packed -Wno-padded -Wno-auto-import -Wno-selector -Wno-auto-import -Wno-static-in-inline -Wno-gnu-conditional-omitted-operand -Wno-gnu-zero-variadic-macro-arguments -Wno-gnu-statement-expression -Wno-language-extension-token -Wno-pointer-arith -Wno-empty-translation-unit -Wno-format-non-iso -Wno-comment -Wno-gnu-folding-constant -Wno-c++98-compat-pedantic -Wno-c++98-compat -Wno-old-style-cast -Wno-incomplete-module -Wno-vla-extension -Wno-c99-extensions -Wno-cstring-format-directive -Rno-module-build -Wno-reserved-id-macro -Wno-undef -Wno-weak-vtables -Wno-over-aligned -Wno-double-promotion $(WA_DISABLE_WARNINGS)
+
+OTHER_CFLAGS = $(inherited) $(WA_WARNINGS_CFLAGS) $(WA_ANALYZER_FLAGS)
+
+RUN_CLANG_STATIC_ANALYZER = YES
+

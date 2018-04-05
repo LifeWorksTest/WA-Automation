@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":1,"key":{"_id":1},"name":"_id_","ns":"wam.stock"},{"v":1,"unique":true,"key":{"item.code":{"$numberLong":"1"},"item.sku":{"$numberLong":"1"}},"name":"item_code_1_item_sku_1","ns":"wam.stock","sparse":true}]}

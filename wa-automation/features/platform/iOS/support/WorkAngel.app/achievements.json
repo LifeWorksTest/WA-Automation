@@ -1,0 +1,38 @@
+[
+    {
+        "image" : "icn_25_milestone_Newbie",
+        "title" : "WAMMilestoneNewbieTitle",
+        "total" : 25,
+        "information" : "WAMMilestoneNewbieInformation"
+    },
+    {
+        "image" : "icn_50_milestone_Hotshot",
+        "title" : "WAMMilestoneHotshotTitle",
+        "total" : 50,
+        "information" : "WAMMilestoneHotshotInformation"
+    },
+    {
+        "image" : "icn_100_milestone_Rockstar",
+        "title" : "WAMMilestoneRockstarTitle",
+        "total" : 100,
+        "information" : "WAMMilestoneRockstarInformation"
+    },
+    {
+        "image" : "icn_200_milestone_Master",
+        "title" : "WAMMilestoneMasterTitle",
+        "total" : 200,
+        "information" : "WAMMilestoneMasterInformation"
+    },
+    {
+        "image" : "icn_500_milestone_Champion",
+        "title" : "WAMMilestoneChampionTitle",
+        "total" : 500,
+        "information" : "WAMMilestoneChampionInformation"
+    },
+    {
+        "image" : "icn_1000_milestone_Legend",
+        "title" : "WAMMilestoneLegendTitle",
+        "total" : 1000,
+        "information" : "WAMMilestoneLegendInformation"
+    }
+]

@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Info.plist</key>
+		<data>
+		z28lYyi3JadaoZoaL0gXX4yp3/4=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default-handle-highlighted.png</key>
+		<data>
+		pN8EQpjdIWOE60T4rPXR20pqoe8=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default-handle-highlighted@2x.png</key>
+		<data>
+		pR2xnsu7WG3D/wL2HP8hyjGSOLo=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default-handle.png</key>
+		<data>
+		qkubM5YJ+1w4lnZJ2tkJhAlwotk=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default-handle@2x.png</key>
+		<data>
+		FsUnsJvisjDFhfiiFmfmnRNfXFg=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default-track.png</key>
+		<data>
+		jgJq2qYrqIkPzQi5AkjU4eWZBCA=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default-track@2x.png</key>
+		<data>
+		gkMdZr1mQun9hriK92MGa2b5QxU=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default-trackBackground.png</key>
+		<data>
+		o4YX0E7pgYMJkeET2lYB0ip/mro=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default-trackCrossedOver.png</key>
+		<data>
+		TC9IfJ1Cgk2MrQCi2M1h0AAUefI=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default-trackCrossedOver@2x.png</key>
+		<data>
+		9S710h624jkN9wGM5S9w5ScK+Nw=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default7-handle.png</key>
+		<data>
+		8/jqJK6Hrk5XlHis/RWS2JJD5hk=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default7-handle@2x.png</key>
+		<data>
+		e9zlyVvMtQGcpiQ9MPrOGvCltDE=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default7-track.png</key>
+		<data>
+		4upIObJ0aJ35rgYVjMilg61Vnuw=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default7-track@2x.png</key>
+		<data>
+		4upIObJ0aJ35rgYVjMilg61Vnuw=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default7-trackBackground.png</key>
+		<data>
+		1luUlxIteVPBfTc8XRQJTnDPHYQ=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default7-trackBackground@2x.png</key>
+		<data>
+		1luUlxIteVPBfTc8XRQJTnDPHYQ=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default7-trackCrossedOver.png</key>
+		<data>
+		wSd1Z0iP4ilsVaz7GEH4NpCWQ+E=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default7-trackCrossedOver@2x.png</key>
+		<data>
+		wSd1Z0iP4ilsVaz7GEH4NpCWQ+E=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-default_trackBackground@2x.png</key>
+		<data>
+		LnHszJho6g8uh9SOKd7aoDZnndk=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-metal-handle-highlighted.png</key>
+		<data>
+		4ra1sSsofLkWW9GyXp5vTUTUsdI=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-metal-handle-highlighted@2x.png</key>
+		<data>
+		14L0VfeBVkSqANRLkHYRVgcI6Eg=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-metal-handle.png</key>
+		<data>
+		VHhFqjP5/WtNW/ZS+fiRSi8uA+w=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-metal-handle@2x.png</key>
+		<data>
+		OjbQPKjfXfu27rwCaMsEE/OOkkU=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-metal-track.png</key>
+		<data>
+		rmKYuJ9e+zsUlf+NdCsZsKYE+9M=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-metal-track@2x.png</key>
+		<data>
+		77qxAUJe8mgCNVEqK5n6jNNkqOY=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-metal-trackBackground.png</key>
+		<data>
+		erkYdK+Roi+P17mo4sLXlBfuI4g=
+		</data>
+		<key>NMRangeSlider Resources.bundle/slider-metal-trackBackground@2x.png</key>
+		<data>
+		ZpiwF7ODJPd+/RKulal1fwWyY/4=
+		</data>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>NMRangeSlider Resources.bundle/slider-default-handle-highlighted.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pN8EQpjdIWOE60T4rPXR20pqoe8=
+			</data>
+			<key>hash2</key>
+			<data>
+			UZ3YHnWgFyeAQnaHgYKuTyuiSxPuTTVITLaicKPzNEc=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default-handle-highlighted@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pR2xnsu7WG3D/wL2HP8hyjGSOLo=
+			</data>
+			<key>hash2</key>
+			<data>
+			DdZpCtJiwQXmko1+zTVRx2geLbe/SzMAcX4LXbRaFWA=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default-handle.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qkubM5YJ+1w4lnZJ2tkJhAlwotk=
+			</data>
+			<key>hash2</key>
+			<data>
+			3Nb5VEuAnMQIeghew6395I2ownfsmys4IaK8BojUXeg=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default-handle@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FsUnsJvisjDFhfiiFmfmnRNfXFg=
+			</data>
+			<key>hash2</key>
+			<data>
+			+HpZPS8bceFgy621495wYizw+q9jWqq9bSjQ3wM05h8=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default-track.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jgJq2qYrqIkPzQi5AkjU4eWZBCA=
+			</data>
+			<key>hash2</key>
+			<data>
+			3qqhgrxDgfEJuBi0sostBSfGW3rmlqXtLd4/bSDZWY0=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default-track@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gkMdZr1mQun9hriK92MGa2b5QxU=
+			</data>
+			<key>hash2</key>
+			<data>
+			1FFOrq+gFVWRGFciA8h0d/zAK59egykXmsbJCzhNals=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default-trackBackground.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			o4YX0E7pgYMJkeET2lYB0ip/mro=
+			</data>
+			<key>hash2</key>
+			<data>
+			eij/2EZToE2xaWX9eRXisS/0Wq4sSQNKKZlH/ApRIzk=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default-trackCrossedOver.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TC9IfJ1Cgk2MrQCi2M1h0AAUefI=
+			</data>
+			<key>hash2</key>
+			<data>
+			pPVzb9jvQZ/hUOD8YXFp+9+tU8VJEkzh9VDHA6XKB/o=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default-trackCrossedOver@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9S710h624jkN9wGM5S9w5ScK+Nw=
+			</data>
+			<key>hash2</key>
+			<data>
+			hs3TZq04i35p1UY4mCy8LrmlyRjVsTqJcbjfbfJUyjg=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default7-handle.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8/jqJK6Hrk5XlHis/RWS2JJD5hk=
+			</data>
+			<key>hash2</key>
+			<data>
+			JRQ7Sv+VVbwrjIQJpF3x9WXZF34dHOWcUyJXGtdTDl0=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default7-handle@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e9zlyVvMtQGcpiQ9MPrOGvCltDE=
+			</data>
+			<key>hash2</key>
+			<data>
+			8C1dGN5d6M47AvwmdWDO9hW1Up0SZGlRKxf4+uZ7YKM=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default7-track.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4upIObJ0aJ35rgYVjMilg61Vnuw=
+			</data>
+			<key>hash2</key>
+			<data>
+			3qcFxmiPOcAjCAnfaZRt1GuFl73tYiKBwhVZ9XD4U58=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default7-track@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4upIObJ0aJ35rgYVjMilg61Vnuw=
+			</data>
+			<key>hash2</key>
+			<data>
+			3qcFxmiPOcAjCAnfaZRt1GuFl73tYiKBwhVZ9XD4U58=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default7-trackBackground.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1luUlxIteVPBfTc8XRQJTnDPHYQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			vjGpRP0I+O4jT1tMbXrSd5rbvR4TtB38evbJwylNLDI=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default7-trackBackground@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1luUlxIteVPBfTc8XRQJTnDPHYQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			vjGpRP0I+O4jT1tMbXrSd5rbvR4TtB38evbJwylNLDI=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default7-trackCrossedOver.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wSd1Z0iP4ilsVaz7GEH4NpCWQ+E=
+			</data>
+			<key>hash2</key>
+			<data>
+			VvGg4xSty2iWVnO/uY42DfF/64OaYMZN1D24oivRfXA=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default7-trackCrossedOver@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wSd1Z0iP4ilsVaz7GEH4NpCWQ+E=
+			</data>
+			<key>hash2</key>
+			<data>
+			VvGg4xSty2iWVnO/uY42DfF/64OaYMZN1D24oivRfXA=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-default_trackBackground@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LnHszJho6g8uh9SOKd7aoDZnndk=
+			</data>
+			<key>hash2</key>
+			<data>
+			AhGoOiQjpjWlb+DG/IfjErO4ZDM0Ufso4+cMtn2v+Po=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-metal-handle-highlighted.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4ra1sSsofLkWW9GyXp5vTUTUsdI=
+			</data>
+			<key>hash2</key>
+			<data>
+			trJfqX5BIQikI4fc32EUVPmcEdqn/nfV4wQphIFk2/s=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-metal-handle-highlighted@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			14L0VfeBVkSqANRLkHYRVgcI6Eg=
+			</data>
+			<key>hash2</key>
+			<data>
+			EaYEv09aYK4zI79pYcDc1M1x4go3ItQmAZrB2M5aaTw=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-metal-handle.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VHhFqjP5/WtNW/ZS+fiRSi8uA+w=
+			</data>
+			<key>hash2</key>
+			<data>
+			jssOSsum3L/jWdLhzxnGxzO0+FobvjSwpa+pivBM1fA=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-metal-handle@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OjbQPKjfXfu27rwCaMsEE/OOkkU=
+			</data>
+			<key>hash2</key>
+			<data>
+			J9ArsHjWPi4BnE3CdmBg91ZZtf8SO6mQhDPQT2aRMo4=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-metal-track.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rmKYuJ9e+zsUlf+NdCsZsKYE+9M=
+			</data>
+			<key>hash2</key>
+			<data>
+			hpDI6K6z0S3G+SVzg/zv8L5ypOOJAUp5wbbwe7CjxpM=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-metal-track@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			77qxAUJe8mgCNVEqK5n6jNNkqOY=
+			</data>
+			<key>hash2</key>
+			<data>
+			IUxo2BMm5WLkRe90maCQpBDDX71GUw1AA+/VmyTD3aM=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-metal-trackBackground.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			erkYdK+Roi+P17mo4sLXlBfuI4g=
+			</data>
+			<key>hash2</key>
+			<data>
+			waZEyTW5iuUszXyDEiwGe+b8aOLvp8pSEgu1BEKse4A=
+			</data>
+		</dict>
+		<key>NMRangeSlider Resources.bundle/slider-metal-trackBackground@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZpiwF7ODJPd+/RKulal1fwWyY/4=
+			</data>
+			<key>hash2</key>
+			<data>
+			FYf3Gfo4oEgM1EiqMo6KGRDMHd/hOepnMd20jDNwMGM=
+			</data>
+		</dict>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^</key>
+		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+	<key>rules2</key>
+	<dict>
+		<key>.*\.dSYM($|/)</key>
+		<dict>
+			<key>weight</key>
+			<real>11</real>
+		</dict>
+		<key>^</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^(.*/)?\.DS_Store$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>2000</real>
+		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^.*</key>
+		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Info\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^PkgInfo$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^embedded\.provisionprofile$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^version\.plist$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

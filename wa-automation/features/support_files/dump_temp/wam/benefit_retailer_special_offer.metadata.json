@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":1,"key":{"_id":1},"name":"_id_","ns":"wam.benefit_retailer_special_offer"},{"v":1,"key":{"company_blacklist.$id":{"$numberLong":"1"}},"name":"company_blacklist_$id_1","ns":"wam.benefit_retailer_special_offer","sparse":false}]}

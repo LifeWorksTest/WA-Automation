@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":1,"key":{"_id":1},"name":"_id_","ns":"wam.user_message_token"},{"v":1,"key":{"user.$id":{"$numberLong":"1"}},"name":"user_$id_1","ns":"wam.user_message_token","sparse":false},{"v":1,"key":{"token_type":{"$numberLong":"1"},"token":{"$numberLong":"1"}},"name":"token_type_1_token_1","ns":"wam.user_message_token","sparse":false}]}

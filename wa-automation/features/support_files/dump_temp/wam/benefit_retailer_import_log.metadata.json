@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":1,"key":{"_id":1},"name":"_id_","ns":"wam.benefit_retailer_import_log"},{"v":1,"key":{"created_on":{"$numberLong":"1"}},"name":"created_on_1","ns":"wam.benefit_retailer_import_log","sparse":false}]}

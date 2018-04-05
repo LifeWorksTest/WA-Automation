@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":1,"key":{"_id":1},"name":"_id_","ns":"wam.user_wallet_transaction"},{"v":1,"key":{"transaction_date":{"$numberLong":"-1"}},"name":"transaction_date_-1","ns":"wam.user_wallet_transaction","sparse":false},{"v":1,"key":{"demo":{"$numberLong":"1"}},"name":"demo_1","ns":"wam.user_wallet_transaction","sparse":false}]}

@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /www/projects/wa-automation/current
+overwrite: true
+hooks:
+  AfterInstall:
+    - location: scripts/after_install.sh
+      runas: root

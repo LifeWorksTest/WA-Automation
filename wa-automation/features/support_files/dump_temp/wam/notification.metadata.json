@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":1,"key":{"_id":1},"name":"_id_","ns":"wam.notification"},{"v":1,"key":{"notification_ref":{"$numberLong":"1"}},"name":"notification_ref_1","ns":"wam.notification","sparse":false},{"v":1,"key":{"target_list.user.$id":{"$numberLong":"1"}},"name":"target_list_user_$id_1","ns":"wam.notification","sparse":false}]}

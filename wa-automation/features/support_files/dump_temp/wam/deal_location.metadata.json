@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":1,"key":{"_id":1},"name":"_id_","ns":"wam.deal_location"},{"v":1,"key":{"country":{"$numberLong":"1"}},"name":"country_1","ns":"wam.deal_location","sparse":false},{"v":1,"key":{"location":"2d"},"name":"location_2d","ns":"wam.deal_location","sparse":false}]}

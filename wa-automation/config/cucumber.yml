@@ -1,0 +1,42 @@
+# config/cucumber.yml
+##YAML Template
+---
+
+iOS: PLATFORM=ios CURRENT_CUCUMBER_PROFILE=Test_iOS_UK DEVICE_TARGET=simulator -r ./features/profiles/environment/Test/UK/ -r features/platform/iOS/ -r features/platform/Api/ -r features/platform/Hermes/step_definitions/ -r ./features/support_files/ -r ./features/platform/Hermes/ -r ./features/platform/Arch/ -r ./features/platform/Zeus/ -r ./features/platform/Api/
+
+
+# iosDevice: BUNDLE_ID=net.wamapp.wam.qa DEVICE_TARGET=device DEVICE_ENDPOINT=http://10.100.10.50:37265 PLATFORM=ios  features/Login.feature features/ApplicationMenu.feature  features/DiscountStore.feature -r features/support -r features/ios/support -r features/ios/helpers -r features/step_definitions -r features/ios/pages --format html --out iPhone5_WAM_Atuomation_Results.html 
+
+#Android: PLATFORM=android -r features/support_files/ -r features/platform/Android/ -r features/platform/Api/ -r features/platform/Hermes/step_definitions/ 
+Android: CURRENT_CUCUMBER_PROFILE=Test_Android_UK PLATFORM=android -r DEVICE_TARGET=simulator -r ./features/profiles/environment/Test/UK/ -r features/platform/Android/ -r features/platform/Api/ -r features/platform/Hermes/step_definitions/ -r ./features/support_files/ -r ./features/platform/Hermes/ -r ./features/platform/Arch/ -r ./features/platform/Zeus/ -r ./features/platform/Api/
+
+#Android_Headless:  PLATFORM=android -r lib -r features/Android -r features/Api RESET_BETWEEN_SCENARIOS=1  --format html --out Android_Test_Results.html 
+
+Vagrant_Headless_Web_UK: CURRENT_CUCUMBER_PROFILE=Vagrant_Headless_Web_UK -r ./features/profiles/environment/Vagrant/UK/ -r ./features/support_files/ -r ./features/platform/Hermes/ -r ./features/platform/Arch/ -r ./features/platform/Zeus/ -r ./features/platform/Api/ -r ./features/platform/Aviato/ 
+Vagrant_Headless_Web_US: CURRENT_CUCUMBER_PROFILE=Vagrant_Headless_Web_US -r ./features/profiles/environment/Vagrant/US/ -r ./features/support_files/ -r ./features/platform/Hermes/ -r ./features/platform/Arch/ -r ./features/platform/Zeus/ -r ./features/platform/Api/ -r ./features/platform/Aviato/ 
+Vagrant_Headless_Web_CA: CURRENT_CUCUMBER_PROFILE=Vagrant_Headless_Web_CA -r ./features/profiles/environment/Vagrant/CA/ -r ./features/support_files/ -r ./features/platform/Hermes/ -r ./features/platform/Arch/ -r ./features/platform/Zeus/ -r ./features/platform/Api/ -r ./features/platform/Aviato/ 
+
+Vagrant_Web_UK: CURRENT_CUCUMBER_PROFILE=Vagrant_Web_UK -r ./features/profiles/environment/Vagrant/UK/ -r ./features/support_files/ -r ./features/platform/Hermes/ -r ./features/platform/Arch/ -r ./features/platform/Zeus/ -r ./features/platform/Api/ -r ./features/platform/Aviato/ 
+Vagrant_Web_US: CURRENT_CUCUMBER_PROFILE=Vagrant_Web_US -r ./features/profiles/environment/Vagrant/US/ -r ./features/support_files/ -r ./features/platform/Hermes/ -r ./features/platform/Arch/ -r ./features/platform/Zeus/ -r ./features/platform/Api/ -r ./features/platform/Aviato/ 
+Vagrant_Web_CA: CURRENT_CUCUMBER_PROFILE=Vagrant_Web_CA -r ./features/profiles/environment/Vagrant/CA/ -r ./features/support_files/ -r ./features/platform/Hermes/ -r ./features/platform/Arch/ -r ./features/platform/Zeus/ -r ./features/platform/Api/ -r ./features/platform/Aviato/ 
+
+Test_Web_UK: CURRENT_CUCUMBER_PROFILE=Test_Web_UK -r ./features/profiles/environment/Test/UK/ -r ./features/support_files/ -r ./features/platform/Hermes/ -r ./features/platform/Arch/ -r ./features/platform/Zeus/ -r ./features/platform/Api/ -r ./features/platform/Aviato/ 
+Test_Web_US: CURRENT_CUCUMBER_PROFILE=Test_Web_US -r ./features/profiles/environment/Test/US/ -r ./features/support_files/ -r ./features/platform/Hermes/ -r ./features/platform/Arch/ -r ./features/platform/Zeus/ -r ./features/platform/Api/ -r ./features/platform/Aviato/ 
+Test_Web_CA: CURRENT_CUCUMBER_PROFILE=Test_Web_CA -r ./features/profiles/environment/Test/CA/ -r ./features/support_files/ -r ./features/platform/Hermes/ -r ./features/platform/Arch/ -r ./features/platform/Zeus/ -r ./features/platform/Api/ -r ./features/platform/Aviato/ 
+
+Production_Web_UK: CURRENT_CUCUMBER_PROFILE=Production_Web_UK -r ./features/profiles/environment/Production/UK/ -r ./features/support_files/ -r ./features/platform/Hermes/ -r ./features/platform/Arch/ -r ./features/platform/Zeus/ -r ./features/platform/Api/ --tag @Production_Smoke
+Production_Web_US: CURRENT_CUCUMBER_PROFILE=Production_Web_US -r ./features/profiles/environment/Production/US/ -r ./features/support_files/ -r ./features/platform/Hermes/ -r ./features/platform/Arch/ -r ./features/platform/Zeus/ -r ./features/platform/Api/ --tag @Production_Smoke
+Production_Web_CA: CURRENT_CUCUMBER_PROFILE=Production_Web_CA -r ./features/profiles/environment/Production/CA/ -r ./features/support_files/ -r ./features/platform/Hermes/ -r ./features/platform/Arch/ -r ./features/platform/Zeus/ -r ./features/platform/Api/ --tag @Production_Smoke
+
+#Added below line for generating reports when parallel tests are executed.
+Create_Report: --format html --out report<%=ENV['TEST_ENV_NUMBER']%>.html
+Rerun_Failed_Tests: RERUN_FAILED_TESTS=true --format html --out report<%=ENV['TEST_ENV_NUMBER']%>.html --format ParallelTests::Cucumber::FailuresLogger --out cucumber_failures.log
+#features/Login.feature features/ColleagueDirectory.feature features/AppMenu.feature -r features/support -r features/x -r features/android/pages -r features/step_definitions RESET_BETWEEN_SCENARIOS=1  --format html --out Android_WAM_Atuomation_Results.html 
+
+#  If you want to run the automation scripts on a device: 
+
+# Build the app using Calabash Target on the device, where you want the scripts to run. 
+
+# Change the ip 10.100.10.128 to your iPhone Wifi ip
+
+#  Run the Profile iosDevice

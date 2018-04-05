@@ -1,0 +1,36 @@
+admin_account_counter:0
+company_invitation_code:0
+invite_email_counter:0
+purchase_date_unix:0
+current_user_id:5926a1d2fc1bc7231b3c18e2
+current_user_company_id:5926a1d2fc1bc7231b3c18de
+current_user_email:lifeworkstesting+uk@workivate.com
+current_user_name:user0 user0
+total_recognitions:0
+recognitions_this_month:0
+group_counter:0
+latest_group_name:
+new_company_url:
+new_admin_email:
+wallet_withdrew_method:
+campaign_name_counter:000
+cinema_total_to_pay:
+cinema_pre_discount_total_to_pay:
+Adult 2d Lifeworkstesting UK all:0000
+Child 2d Lifeworkstesting UK all:0000
+cinema_order_number:
+cinema_name:
+did_run_failed_tests:false
+parallel_processes_run:0
+test_report_folder_name:
+<<<<<<< HEAD
+<<<<<<< HEAD
+cinema_order_number:
+=======
+cinema_name:
+cinema_order_number:
+>>>>>>> 1040a6482ba9c93b0ffbcdfb7cfa3775831e6488
+=======
+cinema_name:
+cinema_order_number:
+>>>>>>> 1040a6482ba9c93b0ffbcdfb7cfa3775831e6488
