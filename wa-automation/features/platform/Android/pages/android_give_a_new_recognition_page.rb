@@ -1,16 +1,24 @@
 # -*- encoding : utf-8 -*-
 require 'calabash-android/abase'
+$scl = "down"
 
 class AndroidGiveANewRecognitionPage < Calabash::ABase
   BTN_POST = "android.widget.TextView marked:'New Post'"
   BTN_NEXT = "* id:'action_selection_done' marked:'Next'"
   BTN_DONE = "* id:'action_selection_done' marked:'Done'"
   BTN_SELECT_BADGE = "AppCompatImageButton id:'fragment_compose_message_action_edit_badge'"
+  BTN_BACK = "android.widget.ImageButton"
+  BTN_DISCARD = "* id:'button2' text:'Discard'"
 
   TXV_SELECT_A_BADGE = "AppCompatTextView marked:'Select a Badge'"
   TXV_NEW_POSTS = "* id:'view_new_data_available_text' text:'New posts'"
   TXF_COMMENT = "UserSuggestionsEditText index:0"
   TXV_GIVE_RECOGNITION = "* id:'fragment_give_recognition_usersuggestion'"
+  TXV_FIRST_BADGE_IN_LIST = "AppCompatTextView id:'view_badge_list_item_title' marked:'Organised'"
+  TXV_SELECT_COLLEAGUES = "* id:'fragment_pick_users_search_text'"
+  TXV_ALERT = "android.support.v7.widget.DialogTitle id:'alertTitle'"
+
+
 
   def trait
     "AppCompatTextView marked:'Select colleague(s)'"
@@ -34,6 +42,10 @@ class AndroidGiveANewRecognitionPage < Calabash::ABase
       wait_for(:timeout => 30){element_exists(BTN_SELECT_BADGE)}
       touch(BTN_SELECT_BADGE)
       wait_for(:timeout => 30){element_exists(TXV_GIVE_RECOGNITION)}
+    when 'BACK'
+      wait_for(:timeout => 30, :post_timeout => 1){element_exists(BTN_BACK)}
+      touch(BTN_BACK)
+      wait_for(:timeout => 30, :post_timeout => 1){element_does_not_exist(BTN_BACK)}      
     else 
       fail(msg = "Error. click_button. The button #{button} is not defined.")
     end
@@ -42,7 +54,7 @@ class AndroidGiveANewRecognitionPage < Calabash::ABase
   # Mimic scroll view by perform drag action
   # @param up_down - scroll up or down
   def scroll (up_down)
-    up_down == 'down' ? perform_action('drag', 50, 50, 60, 40, 5) : perform_action('drag', 50, 50, 40, 50, 5)
+    up_down == 'down' ? perform_action('drag', 50, 50, 60, 40, 5) : perform_action('drag', 50, 50, 40, 60, 5)
   end
 
   # Select user by the given index
@@ -58,17 +70,17 @@ class AndroidGiveANewRecognitionPage < Calabash::ABase
 
   # Select the given badge
   # @param badge
-  def choose_badge (badge)
-    wait_for(:timeout => 30){element_exists(TXV_SELECT_A_BADGE)}
-    puts "Search for: '#{badge}' badge"
-    wait_poll(:until_exists => "AppCompatTextView id:'view_badge_list_item_title' marked:'#{badge}'", :timeout => 30) do 
-      scroll('down')
-      sleep(0.5)
-    end
+  # def choose_badge (badge)
+  #   wait_for(:timeout => 30){element_exists(TXV_SELECT_A_BADGE)}
+  #   puts "Search for: '#{badge}' badge"
+  #   wait_poll(:until_exists => "AppCompatTextView id:'view_badge_list_item_title' marked:'#{badge}'", :timeout => 30) do 
+  #     scroll('down')
+  #     sleep(0.5)
+  #   end
 
-    touch("AppCompatTextView id:'view_badge_list_item_title' marked:'#{badge}'")
-    sleep(0.5)
-  end
+    #touch("AppCompatTextView id:'view_badge_list_item_title' marked:'#{badge}'")
+   #sleep(0.5)
+  # end
 
   # Write the given recognition 
   # @recognition_text
@@ -93,13 +105,12 @@ class AndroidGiveANewRecognitionPage < Calabash::ABase
       choose_badge (badge)
     end
 
-    write_recognition (recognition_text)
+    #write_recognition (recognition_text)
   end 
 
   # Validate badges
   def validate_badges
     i = 0
-
     BADGES.each {|key, value|
       puts "i:#{i}"
       if i % 2 == 1
@@ -107,17 +118,45 @@ class AndroidGiveANewRecognitionPage < Calabash::ABase
         puts "IN"
         next
       end
-
+      puts "key:#{key} value:#{value}"
+      puts "scroll:#{$scl}"
       choose_badge(key)
       puts "key:#{key} value:#{value}"
-
-      if i != 0
-        click_button('DONE')
-      end
-
-      wait_for(:timeout => 30){element_exists("ChipTextView id:'fragment_give_recognition_badge_hash' marked:'#{value}'") || element_exists("ChipTextView id:'fragment_give_recognition_badge_hash' marked:'#{value.capitalize}'")}
       i += 1
-      click_button('Select Badge')
+      # if i != 0
+      #   click_button('DONE')
+      # end
+
+      #wait_for(:timeout => 30){element_exists("ChipTextView id:'fragment_give_recognition_badge_hash' marked:'#{value}'") || element_exists("ChipTextView id:'fragment_give_recognition_badge_hash' marked:'#{value.capitalize}'")}
+      #i += 1
+      # click_button('Select Badge')
     }
+    touch(BTN_BACK)
+    wait_for(:timeout => 30){element_exists(TXV_SELECT_COLLEAGUES)}
+    if element_exists("android.widget.TextView id:'tooltip_title'")
+      touch("android.widget.TextView id:'tooltip_title'")
+      touch(BTN_BACK)
+    else
+      touch(BTN_BACK)
+    end
+    wait_for(:timeout => 30){element_exists(TXV_ALERT)}
+    touch(BTN_DISCARD)
   end
+
+def choose_badge(badge)
+  wait_for(:timeout => 30){element_exists(TXV_SELECT_A_BADGE)}
+    puts "Search for: '#{badge}' badge"
+    wait_poll(:until_exists => "AppCompatTextView id:'view_badge_list_item_title' marked:'#{badge}'", :timeout => 60) do 
+      scroll($scl)
+      if element_exists("AppCompatTextView id:'view_badge_list_item_title' marked:'Recognition'")
+        $scl = "up"
+      elsif element_exists("AppCompatTextView id:'view_badge_list_item_title' marked:'Organised'")
+        if element_does_not_exist("AppCompatTextView id:'view_badge_list_item_title' marked:'Innovation'")
+        $scl = "down"
+        end
+      end
+      sleep(0.5)
+    end
+  end
+
 end

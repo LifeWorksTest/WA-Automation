@@ -491,9 +491,6 @@ API = {
 }
 
 BADGES = {
-  'Superstar' => 'superstar',
-  'superstar' => 'Superstar',
-
   'Newbie' => 'newbie',
   'newbie' =>  'Newbie',
 
@@ -505,6 +502,9 @@ BADGES = {
 
   'Mathematician' => 'mathematician',
   'mathematician' => 'Mathematician',
+
+  'Superstar' => 'superstar',
+  'superstar' => 'Superstar',
 
   'Inspired' => 'inspired',
   'inspired' => 'Inspired',
@@ -521,11 +521,11 @@ BADGES = {
   'Helpful' => 'helpful',
   'helpful' => 'Helpful',
 
-  'Customer Service' => 'customerfocus',
-  'customerfocus' => 'Customer Service',
+  'Customer Is Always Right' => 'customerfocus',
+  'customerfocus' => 'Customer Is Always Right',
 
-  'Positive Attitude' => 'positive',
-  'positive' => 'Positive Attitude',
+  'Positive Attitude' => '#positive',
+  '#positive' => 'Positive Attitude',
 
   'Full Of Energy' => 'energetic',
   'energetic' => 'Full Of Energy',
@@ -536,8 +536,8 @@ BADGES = {
   'Star' => 'star',
   'star' => 'Star',
 
-  'Organized' => 'organized',
-  'organized' => 'Organized',
+  'Organised' => 'organised',
+  'organised' => 'Organised',
 
   'Late Worker' => 'nightowl',
   'nightowl' => 'Late Worker',
@@ -545,8 +545,28 @@ BADGES = {
   'Team Player' => 'teamwork',
   'teamwork' => 'Team Player',
 
+  'Efficient' => 'efficient',
+  'efficient' => 'Efficient',
+
+  'Great Ideas' => 'great ideas',
+  'great ideas' => 'Great Ideas',
+
+  'Customer Service' => 'customer service',
+  'customer service' => 'Customer Service',
+
+  'Great Presentation' => 'great presentation',
+  'great presentation' => 'Great Presentation',
+
+  'Generic' => 'generic',
+  'generic' => 'Generic',
+
   'Social Butterfly' => 'sociable',
-  'sociable' => 'Social Butterfly'
+  'sociable' => 'Social Butterfly',
+
+  'Innovation' => 'innovation',
+  'innovation' => 'Innovation',
+
+  
 }
 
 BADGE_TO_KEEP = {

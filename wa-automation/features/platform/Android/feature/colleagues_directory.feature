@@ -41,6 +41,6 @@ Scenario: Validate badges
     Given I am on the Android Colleagues Directory screen
     Then I validate all badges from the Android Colleagues Directory screen
 
-    Then I click from the Colleagues Directory screen "Home Btn"
+    #Then I click from the Colleagues Directory screen "Home Btn"
     And I logout from the Android app
   

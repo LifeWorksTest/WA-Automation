@@ -1,4 +1,4 @@
-Feature:
+    Feature:
     1. Go over restaurant list and match restaurant details with the restaurant profile page
     2. Favorite and unfavorite restaurant from restaurant page and check result in 'Favourites'
     3. Search for restaurants in specific location
