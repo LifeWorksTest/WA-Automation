@@ -18,6 +18,7 @@ class AndroidMenuPage < Calabash::ABase
   TXV_GIFT_CARDS = "AppCompatTextView marked:'Gift Cards'"
   TXV_IN_STORE_OFFERS = "AppCompatTextView marked:'In-Store'"
   TXV_EXCLUSIVE_OFFERS = "AppCompatTextView marked:'Exclusive Offers'"
+  TXV_LIFE = "AppCompatTextView marked:'Life'"
 
   TXV_LOGOUT = "* marked:'Logout'"
 
@@ -129,6 +130,12 @@ class AndroidMenuPage < Calabash::ABase
       wait_for(:timeout => 30, :post_timeout => 1){element_exists(BTN_YES)}
       touch(BTN_YES)
       wait_for(:timeout => 30, :post_timeout => 1){element_does_not_exist(BTN_YES)}
+
+    when 'Life'
+      wait_for(:timeout => 30, :post_timeout => 1){element_exists(TXV_LIFE)}
+      touch(TXV_LIFE)
+      wait_for(:timeout => 30, :post_timeout => 1){element_exists("AppCompatTextView marked:'Employee Assistance'")}
+
     else
       fail(msg = "Error. click_button. The button #{button} is not defined.")
     end
