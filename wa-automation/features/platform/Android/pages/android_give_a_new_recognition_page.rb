@@ -148,12 +148,15 @@ def choose_badge(badge)
     puts "Search for: '#{badge}' badge"
     wait_poll(:until_exists => "AppCompatTextView id:'view_badge_list_item_title' marked:'#{badge}'", :timeout => 60) do 
       scroll($scl)
+      
       if element_exists("AppCompatTextView id:'view_badge_list_item_title' marked:'Recognition'")
         $scl = "up"
       elsif element_exists("AppCompatTextView id:'view_badge_list_item_title' marked:'Organised'")
+
         if element_does_not_exist("AppCompatTextView id:'view_badge_list_item_title' marked:'Innovation'")
         $scl = "down"
-        end
+      end
+
       end
       sleep(0.5)
     end

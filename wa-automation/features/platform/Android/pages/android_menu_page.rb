@@ -134,7 +134,7 @@ class AndroidMenuPage < Calabash::ABase
     when 'Life'
       wait_for(:timeout => 30, :post_timeout => 1){element_exists(TXV_LIFE)}
       touch(TXV_LIFE)
-      wait_for(:timeout => 30, :post_timeout => 1){element_exists("AppCompatTextView marked:'Employee Assistance'")}
+      wait_for(:timeout => 60, :post_timeout => 1){element_exists("WebView css:'DIV' textContent:'Featured Articles'")}
 
     else
       fail(msg = "Error. click_button. The button #{button} is not defined.")
