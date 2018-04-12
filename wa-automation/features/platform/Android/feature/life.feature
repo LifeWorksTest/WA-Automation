@@ -1,5 +1,5 @@
 Feature:	
-	1. Complete all assessments in an assessment group -> Verify the results page -> Retake assessments x amount of times
+	1. Complete all assessments in an assessment group
 
 @AN15.9 @AN-Life @Android @Smoke @Regression
 Scenario: Complete all assessments in an assessment group -> Verify the results page -> Retake assessments x amount of times
@@ -7,7 +7,7 @@ Scenario: Complete all assessments in an assessment group -> Verify the results 
     Then I click from the Menu screen "Assessments"
 
     Given I am on the Assessments screen
-	Then I complete a Wellbeing Assessment series
+	Then I retake Health Risk Assessment
 	And I logout from the Android app
 
 # @AN15.9 @AN-Life @Android @Smoke @Regression
