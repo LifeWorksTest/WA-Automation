@@ -51,12 +51,12 @@ class AndroidLifePage < Calabash::ABase
         is_visible('EAP_Page')
         
         category_lbl = @CATEGORY_LIST[2]["textContent"]
-        touch("WebView marked:'#{category_lbl}'")
+        touch("WebView css:'Div' textContent:'#{category_lbl}'")
         wait_for(:timeout => 30){element_exists("WebView css:'DIV' class:'font-bold size-lg'")}
         
         # Clicks on the last displayed sub-category for opening the article
         sub_category_lbl = query("WebView css:'DIV' class:'font-bold size-lg'")[1]["textContent"]
-        touch("WebView marked:'#{sub_category_lbl}'")
+        touch("WebView  css:'Div' textContent:'#{sub_category_lbl}'")
         wait_for(:timeout => 30){element_exists("WebView css:'DIV' class:'font-bold size-lg'")}
         touch("WebView css:'DIV' class:'font-bold size-lg'")
         wait_for(:timeout => 30,:post_timeout => 2){("WebView css:'DIV' class:'font-bold'")}
