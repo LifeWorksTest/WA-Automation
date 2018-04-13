@@ -69,14 +69,4 @@ class AndroidLifePage < Calabash::ABase
       fail(msg = "Error. is_visible. The page option #{screen_name} is not defined in menu.")
     end
   end
-
-  def navigate_back_to_more
-    q = query(BTN_MORE)
-    while q.empty? 
-    press_button('KEYCODE_BACK')
-    sleep(0.5)
-    q = query(BTN_MORE)
-    end
-    touch(BTN_MORE)
-  end 
 end

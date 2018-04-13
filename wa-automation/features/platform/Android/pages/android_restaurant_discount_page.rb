@@ -15,8 +15,6 @@ class AndroidRestaurantDiscountsPage < Calabash::ABase
   BTN_NEAR_ME = "* id:'view_new_restaurants_refine_bar_location' text:'Near Me'"
   BTN_SHOW_CARD_AND_REDEEM = "* id:'view_restaurant_details_how_to_claim_show_card_and_redeem_button'"
   BTN_SEARCH = "* id:'action_search'"
-  BTN_MORE = "* id:'smallLabel' text:'More'"
-
   IMG_SPINNER = "android.widget.Spinner id:'action_bar_spinner'"
 
   def trait
@@ -282,30 +280,25 @@ class AndroidRestaurantDiscountsPage < Calabash::ABase
   end
 
   def search_restaurant (restaurantName)
+    
     enter_text("* id:'view_search_toolbar_input_text'", restaurantName)
     hide_soft_keyboard
   end
   
   def choose_result (restaurantName)
+    
     q="* id:'search_item_title' text:'"
     query=q+restaurantName+"'"
     wait_for(:timeout => 30, :post_timeout => 1){element_exists("* id:'search_item_title' text:'Masala'")}
+
     if element_exists("* id:'search_item_title' text:'Masala'",)
     #touch("* id:'search_item_title' text:'Masala'")  
     touch(query)  
     else
       puts "Restaurant named Masala is not found" 
-    end    
+    end
+    
   end
 
-  def navigate_back_to_more
-    q = query(BTN_MORE)
-    while q.empty? 
-    press_button('KEYCODE_BACK')
-    sleep(0.5)
-    q = query(BTN_MORE)
-    end
-    touch(BTN_MORE)
-  end 
 end
 
