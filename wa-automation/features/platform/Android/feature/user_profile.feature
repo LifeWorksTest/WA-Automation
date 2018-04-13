@@ -44,6 +44,6 @@ Scenario: Change profile to profile 2 and then to profile 1 and check changes
     When I click from the Android Profile screen "Edit Profile"
     Then I change the user profile to "user1" from the Android app
     And I check that the user profile is match to "user1"
-    Then I navigate back to more
+    And I navigate back to more
     And I logout from the Android app
   

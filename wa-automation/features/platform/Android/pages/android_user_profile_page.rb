@@ -67,6 +67,7 @@ class AndroidUserProfilePage < Calabash::ABase
   # Validate user profile
   # @param profile - user profile to match with
   def check_user_profile_data (profile)
+    
     wait_for(:timout => 10){element_exists("AppCompatTextView id:'view_title_text_layout_title' marked:'Email'")}
     wait_for(:timout => 10){element_exists("AppCompatTextView id:'view_title_text_layout_description' marked:'#{ACCOUNT[:account_1][:valid_account][:email]}'")}
 
@@ -119,6 +120,7 @@ class AndroidUserProfilePage < Calabash::ABase
   # Change user profile to the given profile
   # @param profile - user profile to change to
   def change_to_profile (profile)
+    
       wait_for(:timout => 10){element_exists("LwTextInputLayout id:'fragment_edit_profile_about'")}
       clear_text_in("LwTextInputLayout id:'fragment_edit_profile_about' descendant * TextInputEditText")
       enter_text("LwTextInputLayout id:'fragment_edit_profile_about' descendant * TextInputEditText", USER_PROFILE[:"#{profile}"][:about])
