@@ -3,6 +3,7 @@ require 'calabash-android/abase'
 
 class AndroidRestaurantDiscountsPage < Calabash::ABase
   TXV_RESTAURANT_DISCOUNT = "* id:'view_toolbar_wrapper_root' AppCompatTextView marked:'Restaurants'"
+  TXV_RESTAURANT_NAME = "* id:'search_item_title' text:'Masala'"
 
   BTN_FAVORITES = "* id:'view_new_restaurants_refine_bar_favourite'"
   BTN_MAP = "* id:'action_show_map'"
@@ -15,7 +16,7 @@ class AndroidRestaurantDiscountsPage < Calabash::ABase
   BTN_NEAR_ME = "* id:'view_new_restaurants_refine_bar_location' text:'Near Me'"
   BTN_SHOW_CARD_AND_REDEEM = "* id:'view_restaurant_details_how_to_claim_show_card_and_redeem_button'"
   BTN_SEARCH = "* id:'action_search'"
-  BTN_MORE = "* id:'smallLabel' text:'More'"
+  
 
   IMG_SPINNER = "android.widget.Spinner id:'action_bar_spinner'"
 
@@ -287,25 +288,17 @@ class AndroidRestaurantDiscountsPage < Calabash::ABase
   end
   
   def choose_result (restaurantName)
-    q="* id:'search_item_title' text:'"
-    query=q+restaurantName+"'"
-    wait_for(:timeout => 30, :post_timeout => 1){element_exists("* id:'search_item_title' text:'Masala'")}
-    if element_exists("* id:'search_item_title' text:'Masala'",)
-    #touch("* id:'search_item_title' text:'Masala'")  
-    touch(query)  
-    else
-      puts "Restaurant named Masala is not found" 
-    end    
+
+    q = query(TXV_RESTAURANT_NAME)
+    while q.empty? 
+      #perform_action('drag',50,50,50,20,20)
+      scroll('Down')
+      q = query(TXV_RESTAURANT_NAME)
+    end
+
+    touch(TXV_RESTAURANT_NAME)
+    wait_for(:timeout => 30, :post_timeout => 1){element_exists("AppCompatTextView id:'view_restaurant_details_header_title'")}
   end
 
-  def navigate_back_to_more
-    q = query(BTN_MORE)
-    while q.empty? 
-    press_button('KEYCODE_BACK')
-    sleep(0.5)
-    q = query(BTN_MORE)
-    end
-    touch(BTN_MORE)
-  end 
 end
 
