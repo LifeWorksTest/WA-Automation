@@ -6,6 +6,7 @@ class AndroidMenuPage < Calabash::ABase
   BTN_NO = "android.widget.Button marked:'No'"
   BTN_YES = "android.widget.Button marked:'Yes'"
   TXV_SETTINGS = "* id:'fragment_more_settings_icon'"
+  BTN_MORE = "* id:'smallLabel' text:'More'"
 
   BTN_VIEW_MY_PROFILE = "* id:'fragment_more_view_profile_button' marked:'View My Profile'"
   TXV_MORE = "AppCompatTextView marked:'More'"
@@ -218,4 +219,17 @@ class AndroidMenuPage < Calabash::ABase
       fail(msg = "Error. check_for_notification. The next notification '#{notification}' was not found")
     end
   end
+
+  def navigate_back_to_more
+
+    q = query(BTN_MORE)
+    while q.empty? 
+    press_button('KEYCODE_BACK')
+    sleep(0.5)
+    q = query(BTN_MORE)
+    end
+    
+    touch(BTN_MORE)
+  end 
+
 end

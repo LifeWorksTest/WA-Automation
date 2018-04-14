@@ -67,8 +67,6 @@ And /^I select "(.*?)" restaurant$/ do |restaurantName|
 	@restaurant_discounts_page.choose_result(restaurantName)
 end
 
-Then /^I navigate back to more$/ do
-	@restaurant_discounts_page.navigate_back_to_more
-end
+
 
 
