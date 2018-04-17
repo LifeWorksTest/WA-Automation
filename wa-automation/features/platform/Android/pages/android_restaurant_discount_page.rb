@@ -15,8 +15,6 @@ class AndroidRestaurantDiscountsPage < Calabash::ABase
   BTN_NEAR_ME = "* id:'view_new_restaurants_refine_bar_location' text:'Near Me'"
   BTN_SHOW_CARD_AND_REDEEM = "* id:'view_restaurant_details_how_to_claim_show_card_and_redeem_button'"
   BTN_SEARCH = "* id:'action_search'"
-  IMG_SPINNER = "android.widget.Spinner id:'action_bar_spinner'"
-
   def trait
     TXV_RESTAURANT_DISCOUNT
   end
@@ -297,8 +295,6 @@ class AndroidRestaurantDiscountsPage < Calabash::ABase
     else
       puts "Restaurant named Masala is not found" 
     end
-    
-  end
+  end    
 
-end
-
+end 

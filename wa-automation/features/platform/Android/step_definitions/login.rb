@@ -81,3 +81,45 @@ end
 And /^I reset password with "(.*?)" email$/ do |is_valid_email|
 	@login_page.reset_password(is_valid_email)
 end
+
+And /^I log into the Android App as a valid "(.*?)" user$/ do |user_type|
+
+    if (user_type == 'shared') || (user_type == 'limited') || (user_type == 'upgraded personal') 
+        steps %Q{
+            Given I login to the Android App with the latest new "#{user_type}" account  
+        }
+    elsif user_type == 'personal'
+        steps %Q{
+            Given I insert valid email and password from the Android app
+            When I am login to Android App
+            Then I am on the Android Menu screen
+        }
+    end
+end
+
+Then /^I login to the Android App with the latest new "(.*?)" account$/ do |user|
+    $SSO = false
+    file_service = FileService.new
+    signed_in = false
+    if user == 'shared'
+        if file_service.get_from_file('shared_account_user_name:')[0..-2] == ''
+            steps %Q{
+                Given I am on the Web App Login screen
+                Given I "add" the new shared account user in Arch
+                When I logout from Arch  
+            }
+		end
+		$current_user_email = file_service.get_from_file('shared_account_user_name:')[0..-2]
+	end
+    if !signed_in
+        steps %Q{
+            Given I am on the Android Get Started screen
+            Then I click from the Android Get Started screen "Login"
+            Then I am on the Android Login screen
+        }
+        @login_page.login_to_wam($current_user_email, ACCOUNT[:"#{$account_index}"][:valid_account][:password])
+        steps %Q{
+            Then I am on the Android Menu screen
+        }
+    end
+end

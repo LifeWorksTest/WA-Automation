@@ -7,6 +7,7 @@ class AndroidLoginPage < Calabash::ABase
   BTN_SKIP = "AppCompatTextView id:'view_walkthrough_cancel_text_view'"
   BTN_CANCEL = "MDButton id:'buttonDefaultNegative'"
   BTN_OK = "MDButton marked:'buttonDefaultPositive'"
+  BTN_LATER = "android.widget.Button id:'fragment_carousel_wellbeing_skip_button'"
 
   TXF_USER_NAME = "android.widget.EditText index:0"
   TXF_PASSWORD = "android.widget.EditText index:1"
@@ -48,6 +49,11 @@ class AndroidLoginPage < Calabash::ABase
       return
     else
       click_button ('Skip')
+      # To skip the wellbing content for the first user login in the app
+      if element_exists(BTN_LATER)
+        click_button('Do Later')
+      end
+      
     end
   end
 
@@ -78,7 +84,8 @@ class AndroidLoginPage < Calabash::ABase
     when 'Skip'
       wait_for(10){element_exists(BTN_SKIP)}
       touch(BTN_SKIP)
-      wait_for(10){element_does_not_exist(BTN_SKIP)}
+      # wait_for(10){element_does_not_exist(BTN_SKIP)}
+      sleep(0.5)
     when "Let's go"
       wait_for(10){element_exists(BTN_LETS_GO)}
       touch(BTN_LETS_GO)      
@@ -89,6 +96,10 @@ class AndroidLoginPage < Calabash::ABase
     when 'Continue'
       wait_for(10){element_exists(BTN_CONTINUE)}
       touch(BTN_CONTINUE)
+      sleep(0.5)
+    when 'Do Later'
+      wait_for(10){element_exists(BTN_LATER)}
+      touch(BTN_LATER)
       sleep(0.5)
     else
       fail(msg = "Error. click_button. The button #{button} is not defined.")
