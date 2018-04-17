@@ -1,23 +1,21 @@
 # -*- encoding : utf-8 -*-
 require 'calabash-android/abase'
 
-class AndroidLifePage < Calabash::ABase
-  LBL_CINEMAS = "label marked:'#{IOS_STRINGS["WAMMenuItemCinemasTitle"]}'"
-  LBL_HOW_DOES_IT_WORK = "label marked:'#{IOS_STRINGS["WAMCIHelpNavigationBarTitle"]}'"
+class AndroidCinemasPage < Calabash::ABase
+  TXV_CINEMAS = "AppCompatTextView marked:'Cinemas'"
+  
+  BTN_BUY_NOW = "android.widget.Button marked:'Buy Now'"
+  BTN_LOCATION_SELECT = "AppCompatCheckedTextView index:0"
+  BTN_CHOOSE_LOCATION = "AppCompatTextView id:'view_cinema_details_pick_location_spinner'"
+  BTN_REMOVE = "AppCompatTextView marked:'Remove'"
+  BTN_PAY_WITH_CARD = "AppCompatButton id:'fragment_checkout_pay_button'"
+  BTN_CLOSE = "android.widget.ImageButton"
 
-  BTN_INFO = "button marked:'icn info'"
-  BTN_T_AND_C = "label marked:'#{IOS_STRINGS["WAMCITermsAndConditionsTitle"]}'"
-  BTN_CANCEL = "button marked:'#{IOS_STRINGS["WAMFoundationCancelKey"]}'"
-  BTN_BUY_NOW = "button marked:'#{IOS_STRINGS["WAMCIBuyButtonTitle"]}'"
-  BTN_REMOVE = "button marked:'#{IOS_STRINGS["WAMSavedCardRemove"]}'"
-  BTN_PAY_WITH_CARD = "button marked:'#{IOS_STRINGS["WAMCheckoutCardButton"]}'"
-  BTN_CLOSE = "button marked:'#{IOS_STRINGS["WAMFoundationCloseKey"]}'"
-  BTN_BACK = "UINavigationBar child * index:1 descendant * index:4"
 
-  LBL_ORDER_ID = ("#{IOS_STRINGS["WAMConfirmationEmailViewSubtitle"]}"[0,9])
+  
 
   def trait
-    LBL_CINEMAS
+    TXV_CINEMAS
   end
 
   # Purchase cinema tickets
@@ -26,16 +24,15 @@ class AndroidLifePage < Calabash::ABase
   # @param purchase_order_array - 2 dimension array of tickets to purchase and amounts
   def purchase_ticket (cinema_name, cinema_location, purchase_order_array)
     @CINEMA_NAME = cinema_name
-    wait_for_none_animating
-
-    wait_poll(:retry_frequency => 0.5,:until_exists => "label marked:'#{cinema_name}'", :timeout => 15) do
-      scroll("scrollView index:0", :down)
+    
+    wait_poll(:until_exists => "AppCompatTextView marked:'#{cinema_name}'", :timeout => 15) do
+      scroll("android.support.v7.widget.RecyclerView", :down)
     end
+    
+    wait_for_elements_exist("AppCompatTextView marked:'#{cinema_name}'")
+    touch ("AppCompatTextView marked:'#{cinema_name}'")
 
-    touch "WAMCIMerchantCell descendant * label marked:'#{cinema_name}'"
-    wait_for_elements_exist("UINavigationBar id:'#{cinema_name}'")
-    wait_for_elements_exist("WAMRetailerInfoView descendant * label marked:'#{cinema_name}'")
-    wait_for_elements_exist("WAMCIOfferTableViewCell")
+    wait_for(:timeout => 30,:post_timeout => 2){element_exists("AppCompatTextView marked:'#{cinema_name}'")}
 
     choose_cinema_location(cinema_name)
     select_ticket(purchase_order_array)
@@ -47,95 +44,85 @@ class AndroidLifePage < Calabash::ABase
   # Choose location screen
   # @param cinema_location
   def choose_cinema_location(cinema_location)
-    wait_for_none_animating
-    wait_for_elements_exist("UITextFieldLabel")
-    touch("UITextFieldLabel")
-    wait_for_none_animating
-    wait_for_elements_exist(BTN_CANCEL)
-    wait_for_elements_exist("WAMOptionToggleView")
-    touch("WAMOptionToggleView")
-    element_does_not_exist(BTN_CANCEL)
+    wait_for(:timeout => 30,:post_timeout => 2){element_exists(BTN_CHOOSE_LOCATION)}
+    touch(BTN_CHOOSE_LOCATION)
+    wait_for(:timeout => 30,:post_timeout => 2){element_exists(BTN_LOCATION_SELECT)}
+    touch(BTN_LOCATION_SELECT)
   end
 
   # Select tickets and amount
   # @param purchase_order_array - holds the ticket type and the quantity
   def select_ticket(purchase_order_array)
-    scroll("scrollView index:0", :down)
-    wait_for_none_animating
 
-    wait_for_elements_exist("WAMCIOfferTableViewCell")
     purchase_order_array.each do |amount,ticket_type|
       puts "amount:#{amount}  ticket_type:#{ticket_type}"
 
-      wait_poll(:retry_frequency => 0.5, :until_exists => "label marked:'#{ticket_type}'", :timeout => 30) do
-        scroll("scrollView", :down)
+      wait_poll(:retry_frequency => 0.5, :until_exists => "AppCompatTextView marked:'#{ticket_type}'", :timeout => 30) do
+        scroll("android.support.v7.widget.RecyclerView", :down)
       end
 
-      touch("label marked:'#{ticket_type}' parent * index:0 descendant * button marked:'ic quantity minus'")
+      touch("AppCompatTextView marked:'#{ticket_type}' parent * index:0 descendant * marked:'view_cinema_ticket_counter_minus'")
 
       for i in 0..amount
-        touch("label marked:'#{ticket_type}' parent * index:0 descendant * button marked:'ic quantity plus'")
+        touch("AppCompatTextView marked:'#{ticket_type}' parent * index:0 descendant * marked:'view_cinema_ticket_counter_add'")
       end
     end
   end
 
-  # Validate that "About This Offer" "How to redeem?" "Important things to know" and "Terms and Condition" are visible and not empty
-  def validate_cinema_page
-    #Important things to know
-    #How to redeem?
-    #About This Offer
-    #Please select
-    #Choose your cinema location
-  end
 
   # Complete conformation screen
   # @param cinema_name
   # @param cinema_location
   # @param purchase_order_array
   def checkout(cinema_name, cinema_location, purchase_order_array)
-    wait_for_elements_exist("label marked:'#{cinema_name} (#{cinema_location})'")
-    wait_for_elements_exist("label marked:'#{IOS_STRINGS["WAMCIDeliveryEmailTitle"]}'")
-    @user_email = query("JVFloatLabeledTextField")[0]['value']
+    # wait_for_elements_exist("label marked:'#{cinema_name} (#{cinema_location})'")
+    # wait_for_elements_exist("label marked:'#{IOS_STRINGS["WAMCIDeliveryEmailTitle"]}'")
+    wait_for(:timeout => 30,:post_timeout => 2){element_exists("AppCompatEditText")}
+
+    @user_email = query("AppCompatEditText id:'fragment_checkout_email_edit_text'")
 
     if @user_email == ''
       fail('Error. checkout. User email is blank')
     end
 
-    wait_for_none_animating
 
-    if element_exists("label marked:'#{IOS_STRINGS["WAMSavedCardTitle"]}'")
-      wait_for_elements_exist(BTN_REMOVE)
+    if element_exists("SavedCardView marked:'fragment_checkout_saved_card_view'")
+      
       touch(BTN_REMOVE)
-      wait_for_none_animating
+      wait_for_elements_exist("DialogTitle marked:'Remove card details'")
+      touch("AppCompatButton id:'button1'")
+      scroll("android.support.v4.widget.NestedScrollView", :down)
     end
 
     wait_for_elements_exist(BTN_PAY_WITH_CARD)
-    touch(BTN_PAY_WITH_CARD)
+   # touch(BTN_PAY_WITH_CARD)
     insert_card_details
-    scroll("scrollView index:0", :down)
-    sleep(1)
-    touch("UIButtonLabel") #to add amount to the button label
-    wait_for_none_animating
+    touch(BTN_PAY_WITH_CARD)
+    #scroll("scrollView index:0", :down)
+    #sleep(1)
+    #touch("UIButtonLabel") #to add amount to the button label
+    
   end
 
   # Insert card details
   def insert_card_details
-    wait_for_none_animating
-    wait_for_elements_exist("label marked:'#{IOS_STRINGS["WAMPaymentEnterCardInformation"]}'")
+    
+    #element_exist("AppCompatTextView marked:'Enter your payment information'")
+    enter_text("android.widget.EditText id:'fragment_checkout_email_edit_text'", 'lwtest@uk.com')
+    hide_soft_keyboard
 
-    wait_for_elements_exist("label marked:'#{IOS_STRINGS["WAMPaymentNumberPlaceholder"]}'")
-    touch("label marked:'#{IOS_STRINGS["WAMPaymentNumberPlaceholder"]}'")
-    wait_for_keyboard
-    keyboard_enter_text('4242424242424242')
+    enter_text("android.widget.EditText id:'view_credit_card_layout_card_number_edit_text'", '4242424242424242')
+    hide_soft_keyboard
+    
 
-    touch("label marked:'#{IOS_STRINGS["WAMPaymentExpiryMonthPlaceholder"]}'")
-    keyboard_enter_text('11')
+    enter_text("android.widget.EditText id:'view_credit_card_layout_card_month_edit_text'", '11')
+    hide_soft_keyboard
 
-    touch("label marked:'#{IOS_STRINGS["WAMPaymentExpiryYearPlaceholder"]}'")
-    keyboard_enter_text('20')
+    enter_text("android.widget.EditText id:'view_credit_card_layout_card_year_edit_text'", '20')
+    hide_soft_keyboard
 
-    touch("label marked:'#{IOS_STRINGS["WAMPaymentSecurityPlaceholder"]}'")
-    keyboard_enter_text('123')
+    enter_text("android.widget.EditText id:'view_credit_card_layout_card_cvc_edit_text'", '123')
+    hide_soft_keyboard
   end
 
   # Complete conformation screen
@@ -143,21 +130,23 @@ class AndroidLifePage < Calabash::ABase
   # @param cinema_location
   # @param purchase_order_array
   def conformation(cinema_name, cinema_location,purchase_order_array)
-    wait_for_elements_exist("UINavigationBar marked:'#{IOS_STRINGS["WAMCheckoutPaymentSuccessfulTitle"]}'")
-    wait_for_elements_exist("label {text BEGINSWITH '#{LBL_ORDER_ID}'}")
-
-    order_id_label = query("label {text BEGINSWITH '#{LBL_ORDER_ID}'}")[0]['label']
-    order_id_label = (/[^.]*/.match order_id_label)[0].sub('#{LBL_ORDER_ID} ','')
+    
+    order_id_label = ""
+    q = query("AppCompatTextView index:3", :Text)[0]
+    if q.start_with?('Order ID:')
+      puts q[10,10]
+      order_id_label = q[10,10]
+    end
 
     if order_id_label == ""
       fail(msg = 'Error. confirmation. Order ID was empty')
     end
 
-    wait_for_elements_exist("label marked:'#{cinema_name} (#{cinema_location})'")
-    wait_for_elements_exist("label {text CONTAINS 'A confirmation email has been sent to'}")
-    wait_for_elements_exist("label marked:'#{@user_email}'")
+  
+    elements_exist("android.widget.TextView id:'fragment_confirmation_title'")
+    
 
     touch(BTN_CLOSE)
-    wait_for_elements_exist("UINavigationBar marked:'#{cinema_name}'")
+    wait_for_elements_exist("AppCompatTextView marked:'#{cinema_name}'")
   end
 end
