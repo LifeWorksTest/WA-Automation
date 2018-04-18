@@ -1,7 +1,6 @@
 # -*- encoding : utf-8 -*-
-Given /^I am on the "(.*?)" screen$/ do |screen|
+Given /^I am on the Assessments screen$/ do
     @life_page = page(AndroidLifePage).await
-    @life_page.is_visible(screen)
 end
 
 Given /^I login or signup to the Android App with a "(.*?)" user and navigate to the Assessment homepage$/ do |user_type|
@@ -18,4 +17,12 @@ Given /^I login or signup to the Android App with a "(.*?)" user and navigate to
         Then I click from the Menu screen "Assessments"
         Given I am on the Assessments screen
     }
+end
+
+Then /^I complete new Assessment$/ do
+    @life_page.complete_new_assessment
+end
+
+And /^I retake the assessment "(.*?)" times$/ do |times_to_retake_assessment|
+    @life_page.complete_assessment_series(times_to_retake_assessment.to_i)
 end
