@@ -22,7 +22,7 @@ Scenario Outline: Create a Cinema on Arch, upload tickets and complete purchase 
   	Then the email should contain "<amount_to_select_1>" "<ticket_type_1>" ticket codes
   	And the email should contain "<amount_to_select_2>" "<ticket_type_2>" ticket codes
 	And I navigate back to more
-    And I logout from the Android app   
+    And I logout from the Android app
 
  	Examples:
  	|cinema_name |cinema_location|ticket_type_1|amount_to_select_1|ticket_type_2|amount_to_select_2|
