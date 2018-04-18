@@ -125,7 +125,7 @@ class AndroidCinemasPage < Calabash::ABase
     element_exists("AppCompatTextView index:3")
     order_id_label = query("AppCompatTextView index:3",:text)[0]
     order_id_label = (/[^.]*/.match order_id_label)[0].sub("AppCompatTextView index:3 text: [0][0,9]",'')
-    puts order_id_label
+    
 
     if order_id_label == ""
       fail(msg = 'Error. confirmation. Order ID was empty')
