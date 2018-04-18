@@ -20,6 +20,7 @@ class AndroidMenuPage < Calabash::ABase
   TXV_IN_STORE_OFFERS = "AppCompatTextView marked:'In-Store'"
   TXV_EXCLUSIVE_OFFERS = "AppCompatTextView marked:'Exclusive Offers'"
   TXV_LIFE = "AppCompatTextView marked:'Life'"
+  TXV_CINEMAS = "AppCompatTextView marked:'Cinemas'"
 
   TXV_LOGOUT = "* marked:'Logout'"
 
@@ -136,6 +137,16 @@ class AndroidMenuPage < Calabash::ABase
       wait_for(:timeout => 30, :post_timeout => 1){element_exists(TXV_LIFE)}
       touch(TXV_LIFE)
       wait_for(:timeout => 60, :post_timeout => 1){element_exists("WebView css:'DIV' textContent:'Featured Articles'")}
+
+    when 'Cinemas'
+      wait_for(:timeout => 30, :post_timeout => 1){element_exists(TXV_PERKS)}
+      touch(TXV_PERKS)
+
+      wait_for(:timeout => 30, :post_timeout => 1){element_exists("AppCompatButton id:'view_perks_segment_see_all'")}
+      touch("AppCompatButton id:'view_perks_segment_see_all'")
+
+      wait_for(:timeout => 30, :post_timeout => 1){element_exists(TXV_CINEMAS)}
+      touch(TXV_CINEMAS)  
 
     else
       fail(msg = "Error. click_button. The button #{button} is not defined.")

@@ -24,6 +24,7 @@ Scenario Outline: Create a Cinema on Arch, upload tickets and complete purchase 
 	And I navigate back to more
     And I logout from the Android app
 
+	
  	Examples:
  	|cinema_name |cinema_location|ticket_type_1|amount_to_select_1|ticket_type_2|amount_to_select_2|
  	|lifeworks_uk|all	         |adult_2d     |4	      	      |child_2d     |5                 |

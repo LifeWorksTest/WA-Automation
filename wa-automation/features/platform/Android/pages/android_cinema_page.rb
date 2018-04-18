@@ -10,9 +10,7 @@ class AndroidCinemasPage < Calabash::ABase
   BTN_REMOVE = "AppCompatTextView marked:'Remove'"
   BTN_PAY_WITH_CARD = "AppCompatButton id:'fragment_checkout_pay_button'"
   BTN_CLOSE = "android.widget.ImageButton"
-
-
-  
+ 
 
   def trait
     TXV_CINEMAS
@@ -38,7 +36,7 @@ class AndroidCinemasPage < Calabash::ABase
     select_ticket(purchase_order_array)
     touch(BTN_BUY_NOW)
     checkout(cinema_name, cinema_location,purchase_order_array)
-    conformation(cinema_name, cinema_location,purchase_order_array)
+    conformation(cinema_name, cinema_location,purchase_order_array) 
   end
 
   # Choose location screen
@@ -75,8 +73,7 @@ class AndroidCinemasPage < Calabash::ABase
   # @param cinema_location
   # @param purchase_order_array
   def checkout(cinema_name, cinema_location, purchase_order_array)
-    # wait_for_elements_exist("label marked:'#{cinema_name} (#{cinema_location})'")
-    # wait_for_elements_exist("label marked:'#{IOS_STRINGS["WAMCIDeliveryEmailTitle"]}'")
+    
     wait_for(:timeout => 30,:post_timeout => 2){element_exists("AppCompatEditText")}
 
     @user_email = query("AppCompatEditText id:'fragment_checkout_email_edit_text'")
@@ -86,8 +83,7 @@ class AndroidCinemasPage < Calabash::ABase
     end
 
 
-    if element_exists("SavedCardView marked:'fragment_checkout_saved_card_view'")
-      
+    if element_exists("SavedCardView marked:'fragment_checkout_saved_card_view'")  
       touch(BTN_REMOVE)
       wait_for_elements_exist("DialogTitle marked:'Remove card details'")
       touch("AppCompatButton id:'button1'")
@@ -95,20 +91,15 @@ class AndroidCinemasPage < Calabash::ABase
     end
 
     wait_for_elements_exist(BTN_PAY_WITH_CARD)
-   # touch(BTN_PAY_WITH_CARD)
     insert_card_details
-    touch(BTN_PAY_WITH_CARD)
-    #scroll("scrollView index:0", :down)
-    #sleep(1)
-    #touch("UIButtonLabel") #to add amount to the button label
-    
+    touch(BTN_PAY_WITH_CARD)  
+    sleep(4) 
   end
 
   # Insert card details
   def insert_card_details
     
-    #element_exist("AppCompatTextView marked:'Enter your payment information'")
-    enter_text("android.widget.EditText id:'fragment_checkout_email_edit_text'", 'lwtest@uk.com')
+    enter_text("android.widget.EditText id:'fragment_checkout_email_edit_text'", 'lifeworkstesting+uk@workivate.com')
     hide_soft_keyboard
 
     enter_text("android.widget.EditText id:'view_credit_card_layout_card_number_edit_text'", '4242424242424242')
@@ -131,22 +122,13 @@ class AndroidCinemasPage < Calabash::ABase
   # @param purchase_order_array
   def conformation(cinema_name, cinema_location,purchase_order_array)
     
-    order_id_label = ""
-    q = query("AppCompatTextView index:3", :Text)[0]
-    if q.start_with?('Order ID:')
-      puts q[10,10]
-      order_id_label = q[10,10]
-    end
+    element_exists("AppCompatTextView index:3")
+    order_id_label = query("AppCompatTextView index:3",:text)[0]
+    order_id_label = (/[^.]*/.match order_id_label)[0].sub("AppCompatTextView index:3 text: [0][0,9]",'')
+    puts order_id_label
 
     if order_id_label == ""
       fail(msg = 'Error. confirmation. Order ID was empty')
     end
-
-  
-    elements_exist("android.widget.TextView id:'fragment_confirmation_title'")
-    
-
-    touch(BTN_CLOSE)
-    wait_for_elements_exist("AppCompatTextView marked:'#{cinema_name}'")
   end
 end
