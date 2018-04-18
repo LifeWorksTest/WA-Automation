@@ -10,7 +10,7 @@ class ArchCinemasPage
     @LBL_ABOUT_THIS_OFFER = @BROWSER.label(:text, 'About this offer*')
     @LBL_HOW_TO_REDEEM = @BROWSER.label(:text, 'How to redeem*')
     @LBL_IMPORTANT_THINGS_TO_KNOW = @BROWSER.label(:text, 'Important things to know*')
-    @LBL_TERMS_AND_CONDITIONS = @BROWSER.div(:id, 'quill-editor-quill-details-terms_and_conditions-description-body').div(:class, 'ql-line')
+    @LBL_TERMS_AND_CONDITIONS = @BROWSER.div(:id, 'quill-editor-quill-details-terms_and_conditions-description-body').div() #Removed class from the div, as driver is unable to find the element
     @LBL_CONFIRMATION = @BROWSER.div(:text, /Are you sure you want to delete this?/)
     @LBL_CREATE_NEW_TICKET_TYPE = @BROWSER.label(:text, 'Create a new Ticket Type')
     @LBL_TICKET_TYPE_NAME = @BROWSER.label(:text, 'Name*')
