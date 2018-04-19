@@ -11,7 +11,6 @@ class AndroidCinemasPage < Calabash::ABase
   BTN_PAY_WITH_CARD = "AppCompatButton id:'fragment_checkout_pay_button'"
   BTN_CLOSE = "android.widget.ImageButton"
  
-
   def trait
     TXV_CINEMAS
   end
@@ -29,9 +28,7 @@ class AndroidCinemasPage < Calabash::ABase
     
     wait_for_elements_exist("AppCompatTextView marked:'#{cinema_name}'")
     touch ("AppCompatTextView marked:'#{cinema_name}'")
-
     wait_for(:timeout => 30,:post_timeout => 2){element_exists("AppCompatTextView marked:'#{cinema_name}'")}
-
     choose_cinema_location(cinema_name)
     select_ticket(purchase_order_array)
     touch(BTN_BUY_NOW)
@@ -53,7 +50,7 @@ class AndroidCinemasPage < Calabash::ABase
   def select_ticket(purchase_order_array)
 
     purchase_order_array.each do |amount,ticket_type|
-      puts "amount:#{amount}  ticket_type:#{ticket_type}"
+     puts "amount:#{amount}  ticket_type:#{ticket_type}"
 
       wait_poll(:retry_frequency => 0.5, :until_exists => "AppCompatTextView marked:'#{ticket_type}'", :timeout => 30) do
         scroll("android.support.v7.widget.RecyclerView", :down)
@@ -72,16 +69,13 @@ class AndroidCinemasPage < Calabash::ABase
   # @param cinema_name
   # @param cinema_location
   # @param purchase_order_array
-  def checkout(cinema_name, cinema_location, purchase_order_array)
-    
+  def checkout(cinema_name, cinema_location, purchase_order_array) 
     wait_for(:timeout => 30,:post_timeout => 2){element_exists("AppCompatEditText")}
-
     @user_email = query("AppCompatEditText id:'fragment_checkout_email_edit_text'")
 
     if @user_email == ''
       fail('Error. checkout. User email is blank')
     end
-
 
     if element_exists("SavedCardView marked:'fragment_checkout_saved_card_view'")  
       touch(BTN_REMOVE)
@@ -93,27 +87,20 @@ class AndroidCinemasPage < Calabash::ABase
     wait_for_elements_exist(BTN_PAY_WITH_CARD)
     insert_card_details
     touch(BTN_PAY_WITH_CARD)  
-    sleep(4) 
+    wait_for(:timeout => 30,:post_timeout => 2){element_exists("AppCompatTextView index:3")}
   end
 
   # Insert card details
   def insert_card_details
-    
-    enter_text("android.widget.EditText id:'fragment_checkout_email_edit_text'", 'lifeworkstesting+uk@workivate.com')
-    hide_soft_keyboard
-
-    enter_text("android.widget.EditText id:'view_credit_card_layout_card_number_edit_text'", '4242424242424242')
-    hide_soft_keyboard
-    
-
+    touch("android.widget.EditText id:'fragment_checkout_email_edit_text'")
+    enter_text("android.widget.EditText id:'fragment_checkout_email_edit_text'", 'lifeworkstesting+uk@workivate.com')     
+    until_element_exists("android.widget.EditText id:'view_credit_card_layout_card_number_edit_text'", :action=>lambda{scroll("NestedScrollView", :down)})
+    enter_text("android.widget.EditText id:'view_credit_card_layout_card_number_edit_text'", '4242424242424242') 
+    until_element_exists("android.widget.EditText id:'view_credit_card_layout_card_month_edit_text'", :action=>lambda{scroll("NestedScrollView", :down)})
     enter_text("android.widget.EditText id:'view_credit_card_layout_card_month_edit_text'", '11')
-    hide_soft_keyboard
-
     enter_text("android.widget.EditText id:'view_credit_card_layout_card_year_edit_text'", '20')
-    hide_soft_keyboard
-
     enter_text("android.widget.EditText id:'view_credit_card_layout_card_cvc_edit_text'", '123')
-    hide_soft_keyboard
+    until_element_exists("AppCompatButton id:'fragment_checkout_pay_button'", :action=>lambda{scroll("NestedScrollView", :down)})
   end
 
   # Complete conformation screen
@@ -121,13 +108,15 @@ class AndroidCinemasPage < Calabash::ABase
   # @param cinema_location
   # @param purchase_order_array
   def conformation(cinema_name, cinema_location,purchase_order_array)
-    
-    element_exists("AppCompatTextView index:3")
+    wait_for_element_exists("AppCompatTextView id:'fragment_confirmation_title'")
+
+    #Stores order ID as string into the variable
+    ordnumber = query("AppCompatTextView index:3",:text)[0][10,10] 
     order_id_label = query("AppCompatTextView index:3",:text)[0]
     order_id_label = (/[^.]*/.match order_id_label)[0].sub("AppCompatTextView index:3 text: [0][0,9]",'')
     
-
-    if order_id_label == ""
+    # "!ordnumber[/\d/].nil?" this condition checks if the ordnumber string consists any numeric digit
+    if order_id_label == "" || !ordnumber[/\d/].nil? == false 
       fail(msg = 'Error. confirmation. Order ID was empty')
     end
   end

@@ -22,29 +22,28 @@ class AndroidLifePage < Calabash::ABase
 
     # Validates that Categories are displayed on EAP life screen and that they have sub-categories limked to them
     def validate_catogries
-
-        is_visible('EAP_Page')
-          no_of_categories = query("WebView css:'DIV' class:'size-xl font-semibold'").count
+      is_visible('EAP_Page')
+      no_of_categories = query("WebView css:'DIV' class:'size-xl font-semibold'").count
           
-        if no_of_categories == 0
-            fail(msg = "Error. validate_catogries. There are no categories displayed in this page.")
-        end
+      if no_of_categories == 0
+         fail(msg = "Error. validate_catogries. There are no categories displayed in this page.")
+      end
 
       for i in 0..no_of_categories - 1
-        label = @CATEGORY_LIST[i]["textContent"]
-        touch("WebView css:'Div' textContent:'#{label}'")
-  	    wait_for(:timeout => 30, :post_timeout => 2){element_exists("WebView css:'DIV' class:'font-bold size-lg'")}
-  	    no_of_sub_categories = query("WebView css:'DIV' class:'font-bold size-lg'").count
+          label = @CATEGORY_LIST[i]["textContent"]
+          
+          touch("WebView css:'Div' textContent:'#{label}'")
+  	      wait_for(:timeout => 30, :post_timeout => 2){element_exists("WebView css:'DIV' class:'font-bold size-lg'")}
+  	      no_of_sub_categories = query("WebView css:'DIV' class:'font-bold size-lg'").count
           puts "no_of_sub_categories is #{no_of_sub_categories}"
            
           if no_of_sub_categories == 0
-            fail(msg = "Error. validate_catogries. There are no sub-categories displayed in this page.")
+             fail(msg = "Error. validate_catogries. There are no sub-categories displayed in this page.")
           end
 
           touch("WebView css:'Div' textContent:'#{label}'")
           wait_for(:timeout => 30, :post_timeout => 2){element_does_not_exist("WebView css:'DIV' class:'font-bold size-lg'")}
-      end
-      
+      end 
     end
 
     def open_an_article
@@ -58,11 +57,17 @@ class AndroidLifePage < Calabash::ABase
         sub_category_lbl = query("WebView css:'DIV' class:'font-bold size-lg'")[1]["textContent"]
         touch("WebView  css:'Div' textContent:'#{sub_category_lbl}'")
         wait_for(:timeout => 30){element_exists("WebView css:'DIV' class:'font-bold size-lg'")}
+        text_before_opening_article = query("WebView css:'DIV' class:'font-bold size-lg'")[0]["textContent"]
         touch("WebView css:'DIV' class:'font-bold size-lg'")
         wait_for(:timeout => 30,:post_timeout => 2){("WebView css:'DIV' class:'font-bold'")}
+        text_after_opening_article = query("WebView css:'DIV' class:'font-bold pdf-article-title'")[0]["textContent"]
         touch("WebView css:'SPAN'{textContent CONTAINS 'Home'}")
-        wait_for(:timeout => 30){element_exists(LBL_EAP)}
-                        
-    end 
-  	    
+        wait_for(:timeout => 30){element_exists(LBL_EAP)}      
+        
+        unless text_before_opening_article == text_after_opening_article       
+            fail "Wrong article is opened!! Expected to see '#{text_before_opening_article}' article, but opened '#{text_after_opening_article}' article."
+        else
+            puts "Correct article is opened!! Expected to see '#{text_before_opening_article}' article and opened '#{text_after_opening_article}' article."
+        end              
+    end  	    
 end    

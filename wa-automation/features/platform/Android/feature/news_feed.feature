@@ -37,7 +37,7 @@ Scenario: Write comment
     When I write this comment "Great work my friend" in the latest post
     And I logout from the Android app
 
-@AN5.4 @AN-NewsFeed @Android @Bug
+@AN5.4 @AN-NewsFeed @Android
 Scenario: Search for existing post and unexisting post
     Given I am on the Android Menu screen
     Then I click from the Menu screen "News Feed"

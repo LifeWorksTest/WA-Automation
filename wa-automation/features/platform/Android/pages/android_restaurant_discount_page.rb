@@ -135,10 +135,7 @@ class AndroidRestaurantDiscountsPage < Calabash::ABase
   def validate_restaurant_page(restaurant_name, restaurant_offer, restaurant_address, restaurant_type, restaurant_distance, constraints_counter = nil)
     puts"restaurant_type:#{restaurant_type}"
     wait_for(:timeout => 30, :post_timeout => 1){element_exists("* id:'view_restaurant_details_header_title' marked:'#{restaurant_name}'")}
-#    wait_for(:timeout => 5){element_exists("* id:'view_restaurant_details_header_subtitle' marked:'#{restaurant_offer}'")}
     wait_for(:timeout => 30, :post_timeout => 1){element_exists("* id:'view_restaurant_details_header_cuisine_type' marked:'#{restaurant_type}'")}
-   # wait_for(:timeout => 5){element_exists("* id:'view_restaurant_details_header_distance_to_restaurant' marked:'#{restaurant_distance}'")}
-
     wait_for(:timeout => 30, :post_timeout => 1){element_exists("* id:'view_restaurant_details_header_title'")}
     
     if query("* id:'view_restaurant_details_header_subtitle'")[0]['text'] == nil
@@ -289,16 +286,15 @@ class AndroidRestaurantDiscountsPage < Calabash::ABase
   
   def choose_result (restaurantName)
 
-    q = query(TXV_RESTAURANT_NAME)
-    while q.empty? 
-      #perform_action('drag',50,50,50,20,20)
-      scroll('Down')
-      q = query(TXV_RESTAURANT_NAME)
+    restaurant = query(TXV_RESTAURANT_NAME)
+    while restaurant.empty? 
+      perform_action('drag',50,50,50,20,20)
+      #scroll('Down')
+      restaurant = query(TXV_RESTAURANT_NAME)
     end
 
     touch(TXV_RESTAURANT_NAME)
     wait_for(:timeout => 30, :post_timeout => 1){element_exists("AppCompatTextView id:'view_restaurant_details_header_title'")}
   end
-
 end
 

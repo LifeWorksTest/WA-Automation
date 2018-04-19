@@ -31,7 +31,7 @@ Scenario: Match current user total recognition in Profile with Leaderboard
     Then I match the my total recogntion with All Time
     And I logout from the Android app
 
-@AN8.3 @UserProfile @AN-UserProfile @Android @Bug
+@AN8.3 @UserProfile @AN-UserProfile @Android
 Scenario: Change profile to profile 2 and then to profile 1 and check changes
     Given I am on the Android Menu screen
     Then I click from the Menu screen "My Profile"

@@ -33,14 +33,12 @@ Scenario: Search for existing and unexistsing colleague
     And I click from the Colleagues Directory screen "BACK"
     And I logout from the Android app
 
-@AN3.3 @AN-ColleaguesDirectory @Android @Bug
+@AN3.3 @AN-ColleaguesDirectory @Android
 Scenario: Validate badges
     Given I am on the Android Menu screen
     Then I click from the Menu screen "Colleagues Directory"
-
+    
     Given I am on the Android Colleagues Directory screen
     Then I validate all badges from the Android Colleagues Directory screen
-
-    #Then I click from the Colleagues Directory screen "Home Btn"
     And I logout from the Android app
   

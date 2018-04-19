@@ -46,7 +46,7 @@ Scenario: Search for restaurants in specific location
     And I validate that "Oxford Street" is visible in the previous search results
 
 
-@AN7.3.1 @AN-RestureantDiscount @Android @Bug
+@AN7.3.1 @AN-RestureantDiscount @Android
 Scenario: Search for restaurant and go to restaurant page
     Given I am on the Android Menu screen
     Then I click from the Menu screen "Restaurant Discount"
@@ -58,7 +58,7 @@ Scenario: Search for restaurant and go to restaurant page
     And I navigate back to more
     And I logout from the Android app
 
-@AN7.4 @AN-RestureantDiscount @Android @Bug
+@AN7.4 @AN-RestureantDiscount @Android
 Scenario: Validate functionality of the Map view
     Given I am on the Android Menu screen
     Then I click from the Menu screen "Restaurant Discount"
