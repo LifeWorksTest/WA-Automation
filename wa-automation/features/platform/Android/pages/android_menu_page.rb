@@ -225,11 +225,11 @@ class AndroidMenuPage < Calabash::ABase
     
     q = query(BTN_MORE)
     while q.empty? 
-    press_button('KEYCODE_BACK')
-    sleep(0.5)
-    q = query(BTN_MORE)
+      press_button('KEYCODE_BACK')
+      sleep(0.5)
+      q = query(BTN_MORE)
     end
+    
     touch(BTN_MORE)
   end 
-
 end

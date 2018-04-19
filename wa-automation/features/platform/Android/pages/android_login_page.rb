@@ -49,6 +49,7 @@ class AndroidLoginPage < Calabash::ABase
       return
     else
       click_button ('Skip')
+      
       # To skip the wellbing content for the first user login in the app
       if element_exists(BTN_LATER)
         click_button('Do Later')

@@ -9,7 +9,6 @@ Scenario: Complete Retake assessments in an assessment group
     Given I am on the Assessments screen
     Then I retake Health Risk Assessment
     And I logout from the Android app
-
     
 @AN15.10 @AN-Life @Android @Smoke @Regression
 Scenario Outline: Complete all assessments in an assessment group -> Verify the results page -> Retake assessments x amount of times
