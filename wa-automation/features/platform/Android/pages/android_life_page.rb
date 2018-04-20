@@ -65,9 +65,9 @@ class AndroidLifePage < Calabash::ABase
         wait_for(:timeout => 30){element_exists(LBL_EAP)}      
         
         unless text_before_opening_article == text_after_opening_article       
-            fail "Wrong article is opened!! Expected to see '#{text_before_opening_article}' article, but opened '#{text_after_opening_article}' article."
+         fail "Wrong article is opened!! Expected to see '#{text_before_opening_article}' article, but opened '#{text_after_opening_article}' article."
         else
-            puts "Correct article is opened!! Expected to see '#{text_before_opening_article}' article and opened '#{text_after_opening_article}' article."
+         puts "Correct article is opened!! Expected to see '#{text_before_opening_article}' article and opened '#{text_after_opening_article}' article."
         end              
     end  	    
 end    

@@ -285,8 +285,8 @@ class AndroidRestaurantDiscountsPage < Calabash::ABase
   end
   
   def choose_result (restaurantName)
-
     restaurant = query(TXV_RESTAURANT_NAME)
+    
     while restaurant.empty? 
       perform_action('drag',50,50,50,20,20)
       #scroll('Down')
