@@ -33,7 +33,18 @@ class AndroidCinemasPage < Calabash::ABase
     select_ticket(purchase_order_array)
     touch(BTN_BUY_NOW)
     checkout(cinema_name, cinema_location,purchase_order_array)
-    conformation(cinema_name, cinema_location,purchase_order_array) 
+    wait_for(:timeout => 30,:post_timeout => 2){element_exists("AppCompatTextView id:'view_cinema_order_information_price_discount_text_view' index:0")}
+    amount_on_checkout = query("AppCompatTextView id:'view_cinema_order_information_price_discount_text_view'")[0]["text"]
+    confirmation(cinema_name, cinema_location,purchase_order_array)
+    wait_for(:timeout => 30,:post_timeout => 2){element_exists("AppCompatTextView id:'view_cinema_order_information_price_discount_text_view' index:0")}
+    amount_on_confirmation = query("AppCompatTextView id:'view_cinema_order_information_price_discount_text_view'")[0]["text"]
+  
+    #Will be confirming the amount displayed on checkout page with that to displayed on confirmation page
+    unless amount_on_checkout == amount_on_confirmation    
+      fail (msg = "Error. confirmation. Checkout amount '#{amount_on_checkout}' is not matched with the amount on confirmation page '#{amount_on_confirmation}'")
+     else
+      puts (msg = "confirmation. Checkout amount '#{amount_on_checkout}' is matched with the amount on confirmation page '#{amount_on_confirmation}'")
+    end  
   end
 
   # Choose location screen
@@ -48,7 +59,6 @@ class AndroidCinemasPage < Calabash::ABase
   # Select tickets and amount
   # @param purchase_order_array - holds the ticket type and the quantity
   def select_ticket(purchase_order_array)
-
     purchase_order_array.each do |amount,ticket_type|
      puts "amount:#{amount}  ticket_type:#{ticket_type}"
 
@@ -63,7 +73,6 @@ class AndroidCinemasPage < Calabash::ABase
       end
     end
   end
-
 
   # Complete conformation screen
   # @param cinema_name
@@ -103,11 +112,11 @@ class AndroidCinemasPage < Calabash::ABase
     until_element_exists("AppCompatButton id:'fragment_checkout_pay_button'", :action=>lambda{scroll("NestedScrollView", :down)})
   end
 
-  # Complete conformation screen
+  # Complete confirmation screen
   # @param cinema_name
   # @param cinema_location
   # @param purchase_order_array
-  def conformation(cinema_name, cinema_location,purchase_order_array)
+  def confirmation(cinema_name, cinema_location,purchase_order_array)
     wait_for_element_exists("AppCompatTextView id:'fragment_confirmation_title'")
 
     #Stores order ID as string into the variable
