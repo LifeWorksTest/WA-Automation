@@ -26,7 +26,7 @@ class AndroidColleaguesDirectoryPage < Calabash::ABase
       wait_for(:timeout => 30, :post_timeout => 1){element_exists(BTN_BACK)}
       touch(BTN_BACK)
       wait_for(:timeout => 30, :post_timeout => 1){element_does_not_exist(BTN_BACK)}   
-    else 
+    else
       fail(msg = "Error. click_button. The button #{button} is not defined.")
     end
   end

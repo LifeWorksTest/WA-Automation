@@ -11,12 +11,11 @@ class AndroidLifePage < Calabash::ABase
     def is_visible(page)
         case page
         when 'EAP_Page'
-            wait_for(:timeout => 30,:post_timeout => 2){element_exists(LBL_EAP)}
-            wait_for(:timeout => 30,:post_timeout => 2){element_exists("WebView css:'DIV' class:'size-xl font-semibold'")}
-            @CATEGORY_LIST = query("WebView css:'DIV' class:'size-xl font-semibold'")
-           
+          wait_for(:timeout => 30,:post_timeout => 2){element_exists(LBL_EAP)}
+          wait_for(:timeout => 30,:post_timeout => 2){element_exists("WebView css:'DIV' class:'size-xl font-semibold'")}
+          @CATEGORY_LIST = query("WebView css:'DIV' class:'size-xl font-semibold'")  
         else 
-            fail(msg = "Error. is_visible. The button #{button} is not defined.")
+          fail(msg = "Error. is_visible. The button #{button} is not defined.")
         end  
     end
 
