@@ -39,10 +39,11 @@ Scenario: Change profile to profile 2 and then to profile 1 and check changes
     Given I am on the Android Profile screen
     When I click from the Android Profile screen "Edit Profile"
     Then I change the user profile to "user2" from the Android app
-    And I check that the user profile is match to "user1"
+    And I check that the user profile is match to "user2"
 
     When I click from the Android Profile screen "Edit Profile"
     Then I change the user profile to "user1" from the Android app
-    And I check that the user profile is match to "user2"
+    And I check that the user profile is match to "user1"
+    And I navigate back to more
     And I logout from the Android app
   

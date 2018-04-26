@@ -72,7 +72,7 @@ And /^I logout from the Android app$/ do
 end
 
 Then /^I navigate back to more$/ do
-	@menu_page.navigate_back_to_more
+	 @menu_page.navigate_back_to_more
 end
 
 And /^I check that this user got the next notification "(.*?)"$/ do |notification|

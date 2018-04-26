@@ -14,7 +14,6 @@ class AndroidRestaurantDiscountsPage < Calabash::ABase
   BTN_FAVORITE = "* id:'fragment_new_restaurant_details_favourite_button'"
   BTN_REFINE = "* id:'view_new_restaurants_refine_bar_refine' text:'Refine'"
   BTN_NEAR_ME = "* id:'view_new_restaurants_refine_bar_location' text:'Near Me'"
-  BTN_SHOW_CARD_AND_REDEEM = "* id:'view_restaurant_details_how_to_claim_show_card_and_redeem_button'"
   BTN_SEARCH = "* id:'action_search'"
   
 
@@ -280,6 +279,7 @@ class AndroidRestaurantDiscountsPage < Calabash::ABase
   end
 
   def search_restaurant (restaurantName)
+    
     enter_text("* id:'view_search_toolbar_input_text'", restaurantName)
     hide_soft_keyboard
   end
@@ -297,4 +297,3 @@ class AndroidRestaurantDiscountsPage < Calabash::ABase
     wait_for(:timeout => 30, :post_timeout => 1){element_exists("AppCompatTextView id:'view_restaurant_details_header_title'")}
   end
 end
-

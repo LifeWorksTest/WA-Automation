@@ -5,10 +5,11 @@ class AndroidMenuPage < Calabash::ABase
   BTN_HOME = "* id:'view_toolbar_wrapper_toolbar' * contentDescription:'Open navigation'"
   BTN_NO = "android.widget.Button marked:'No'"
   BTN_YES = "android.widget.Button marked:'Yes'"
-  BTN_VIEW_MY_PROFILE = "* id:'fragment_more_view_profile_button' marked:'View My Profile'"
   BTN_MORE = "* id:'smallLabel' text:'More'"
-  
-  
+  BTN_VIEW_MY_PROFILE = "* id:'fragment_more_view_profile_button' marked:'View My Profile'"
+
+
+  TXV_SETTINGS = "* id:'fragment_more_settings_icon'"
   TXV_MORE = "AppCompatTextView marked:'More'"
   TXV_NEWS_FEED = "AppCompatTextView marked:'News Feed'"
   TXV_WORK = "AppCompatTextView marked:'Work'"
@@ -21,7 +22,7 @@ class AndroidMenuPage < Calabash::ABase
   TXV_EXCLUSIVE_OFFERS = "AppCompatTextView marked:'Exclusive Offers'"
   TXV_LIFE = "AppCompatTextView marked:'Life'"
   TXV_CINEMAS = "AppCompatTextView marked:'Cinemas'"
-  TXV_SETTINGS = "* id:'fragment_more_settings_icon'"
+  TXV_ASSESSMENTS = "AppCompatTextView marked:'Assessments'"
   TXV_LOGOUT = "* marked:'Logout'"
   
 
@@ -133,12 +134,10 @@ class AndroidMenuPage < Calabash::ABase
       wait_for(:timeout => 30, :post_timeout => 1){element_exists(BTN_YES)}
       touch(BTN_YES)
       wait_for(:timeout => 30, :post_timeout => 1){element_does_not_exist(BTN_YES)}
-
     when 'Life'
       wait_for(:timeout => 30, :post_timeout => 1){element_exists(TXV_LIFE)}
       touch(TXV_LIFE)
       wait_for(:timeout => 60, :post_timeout => 1){element_exists("WebView css:'DIV' textContent:'Featured Articles'")}
-
     when 'Cinemas'
       wait_for(:timeout => 30, :post_timeout => 1){element_exists(TXV_PERKS)}
       touch(TXV_PERKS)
@@ -148,7 +147,12 @@ class AndroidMenuPage < Calabash::ABase
 
       wait_for(:timeout => 30, :post_timeout => 1){element_exists(TXV_CINEMAS)}
       touch(TXV_CINEMAS)  
-
+    when 'Assessments'
+      wait_for(:timeout => 30, :post_timeout => 1){element_exists(TXV_MORE)}
+      touch(TXV_MORE)
+      wait_for(:timeout => 30, :post_timeout => 1){element_exists(TXV_ASSESSMENTS)}
+      touch(TXV_ASSESSMENTS)
+      wait_for(:timeout => 30, :post_timeout => 1){element_exists(TXV_ASSESSMENTS)}
     else
       fail(msg = "Error. click_button. The button #{button} is not defined.")
     end
@@ -241,3 +245,4 @@ class AndroidMenuPage < Calabash::ABase
     end 
   end 
 end
+

@@ -67,6 +67,7 @@ class AndroidUserProfilePage < Calabash::ABase
   # Validate user profile
   # @param profile - user profile to match with
   def check_user_profile_data (profile)
+    
     wait_for(:timout => 10){element_exists("AppCompatTextView id:'view_title_text_layout_title' marked:'Email'")}
     wait_for(:timout => 10){element_exists("AppCompatTextView id:'view_title_text_layout_description' marked:'#{ACCOUNT[:account_1][:valid_account][:email]}'")}
 
@@ -119,13 +120,16 @@ class AndroidUserProfilePage < Calabash::ABase
   # Change user profile to the given profile
   # @param profile - user profile to change to
   def change_to_profile (profile)
+    
       wait_for(:timout => 10){element_exists("LwTextInputLayout id:'fragment_edit_profile_about'")}
       clear_text_in("LwTextInputLayout id:'fragment_edit_profile_about' descendant * TextInputEditText")
       enter_text("LwTextInputLayout id:'fragment_edit_profile_about' descendant * TextInputEditText", USER_PROFILE[:"#{profile}"][:about])
-      
+      hide_soft_keyboard
+
       wait_for(:timout => 10){element_exists("LwTextInputLayout id:'fragment_edit_profile_job_title'")}
       clear_text_in("LwTextInputLayout id:'fragment_edit_profile_job_title' descendant * TextInputEditText")
       enter_text("LwTextInputLayout id:'fragment_edit_profile_job_title' descendant * TextInputEditText", USER_PROFILE[:"#{profile}"][:role_title])
+      hide_soft_keyboard
 
       year = USER_PROFILE[:"#{profile}"][:date_join_year].to_i
       month = Date::ABBR_MONTHNAMES.index( USER_PROFILE[:"#{profile}"][:date_join_month]).to_i - 1
@@ -152,8 +156,11 @@ class AndroidUserProfilePage < Calabash::ABase
 
       clear_text_in("LwTextInputLayout id:'fragment_edit_profile_mobile' descendant * TextInputEditText")
       enter_text("LwTextInputLayout id:'fragment_edit_profile_mobile' descendant * TextInputEditText", USER_PROFILE[:"#{profile}"][:phone])
+      hide_soft_keyboard
+
       clear_text_in("LwTextInputLayout id:'fragment_edit_profile_work_number' descendant * TextInputEditText")
       enter_text("LwTextInputLayout id:'fragment_edit_profile_work_number' descendant * TextInputEditText", USER_PROFILE[:"#{profile}"][:phone])
+      hide_soft_keyboard
 
       touch("LwTextInputLayout id:'fragment_edit_profile_last_birthday'")
       year = USER_PROFILE[:"#{profile}"][:b_day_year].to_i
